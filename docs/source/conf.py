@@ -28,7 +28,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme' # pip3 install sphinx_rtd_theme
 
-html_logo = 'images/color_logo.png'
+html_logo = 'images/white_logo.png'
 
 
 html_favicon = 'images/favicon.ico'
@@ -40,7 +40,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
    #  'style_external_links': True,
    #  'vcs_pageview_mode': '',
-    #'style_nav_header_background': 'white',
+    'style_nav_header_background': '#ff7337',
     # Toc options
 
     'collapse_navigation': True,
