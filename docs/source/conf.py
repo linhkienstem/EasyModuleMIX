@@ -28,7 +28,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme' # pip3 install sphinx_rtd_theme
 
-html_logo = 'images/logo-ohstem-white.png'
+html_logo = 'images/color_logo.png'
 
 
 html_favicon = 'images/favicon.ico'
