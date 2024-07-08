@@ -38,20 +38,20 @@ html_theme_options = {
     'logo_only': True,
     # 'display_version': True,
     'prev_next_buttons_location': 'bottom',
-   #  'style_external_links': True,
-   #  'vcs_pageview_mode': '',
+    # 'style_external_links': True,
+    # 'vcs_pageview_mode': '',
     'style_nav_header_background': '#ff7337',
     # Toc options
 
     'collapse_navigation': True,
     'sticky_navigation': True,
-   #  'navigation_depth': 4,
+    # 'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
 
     # 'collapse_navigation': True,
     # 'sticky_navigation': True,
-   #  'navigation_depth': 4,
+    # 'navigation_depth': 4,
     # 'includehidden': True,
 }
 
@@ -71,7 +71,7 @@ html_static_path = ['_static']
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
 html_css_files = [
-    '_static/custom.css'
+    'custom_css/custom.css'
 ]
 
 # -- Options for EPUB output
