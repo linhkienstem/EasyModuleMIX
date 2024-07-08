@@ -5,6 +5,6 @@
     :alt: Logo Linh kien STEM
     :target: https://www.stemvn.vn/
     :class: with-shadow
-    :heigh: 50%
+    :heigh: 30%
     :align: center
 |
