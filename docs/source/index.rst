@@ -14,5 +14,5 @@ Linh kiện STEM xin chào tất cả các bạn!
    :maxdepth: 2
    :caption: Easy Module MIX
 
-   orc_bot/orc-bot.rst
+   EasyModuleMIX/easy_module_mix.rst
 
