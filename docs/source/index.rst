@@ -1,9 +1,9 @@
 Linh kiện STEM
 ======================================
 
-OhStem xin chào tất cả các bạn!
+Linh kiện STEM xin chào tất cả các bạn!
 
-Đây là trang tài liệu của OhStem Education.
+Đây là trang tài liệu của Linh kiện STEM.
 
 
 .. toctree::
