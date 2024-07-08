@@ -3,8 +3,6 @@ Linh kiện STEM
 
 Linh kiện STEM xin chào tất cả các bạn!
 
-Đây là trang tài liệu của Linh kiện STEM.
-
 
 .. toctree::
    :maxdepth: 1
