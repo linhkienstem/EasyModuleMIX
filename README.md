@@ -1,1 +1,1 @@
-# Tài liệu về các sản phẩm tại Linh kiện STEM
+# Tài liệu về EasyModuleMIX
