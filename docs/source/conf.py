@@ -63,8 +63,9 @@ html_context  = {
 }
 
 html_static_path = ['_static']
+
 html_css_files = [
-    'custom_css/custom.css'
+    'custom.css'
 ]
 
 epub_show_urls = 'footnote'
