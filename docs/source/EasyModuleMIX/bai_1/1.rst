@@ -6,7 +6,7 @@ Nano. Bao gồm nhiều mô-đun cảm biến, bộ truyền động và các th
 khác có thể dễ dàng tích hợp vào các dự án Arduino của bạn, cho phép bạn
 xây dựng nhiều loại thiết bị tương tác và nguyên mẫu.
 
-.. image:: images/media/image1.png
+.. image:: ../media/image1.png
    :width: 6.5in
    :height: 3.94306in
 
