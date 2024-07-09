@@ -1,0 +1,59 @@
+3. **Hướng dẫn lập trình**
+===
+
+..
+
+   char Incoming_value = 0; // Biến để lưu trữ giá trị nhận được qua
+   Serial
+
+   void setup()
+
+   {
+
+   Serial.begin(9600); // Khởi động Serial Monitor với tốc độ baud 9600
+
+   pinMode(8, OUTPUT); // Thiết lập chân 8 là OUTPUT để điều khiển còi
+   chip (buzzer)
+
+   pinMode(9, OUTPUT); // Thiết lập chân 9 là OUTPUT để điều khiển LED
+
+   }
+
+   void loop()
+
+   {
+
+   if (Serial.available() > 0) // Kiểm tra nếu có dữ liệu nhận được từ
+   Serial
+
+   {
+
+   Incoming_value = Serial.read(); // Đọc dữ liệu từ Serial và lưu vào
+   biến Incoming_value
+
+   Serial.print(Incoming_value); // In giá trị nhận được lên Serial
+   Monitor
+
+   Serial.print("\\n"); // Xuống dòng trên Serial Monitor
+
+   // Kiểm tra giá trị nhận được và điều khiển các chân tương ứng
+
+   if (Incoming_value == '1') // Nếu giá trị nhận được là '1'
+
+   digitalWrite(8, LOW); // Bật còi chip (chân 8)
+
+   else if (Incoming_value == '2') // Nếu giá trị nhận được là '2'
+
+   digitalWrite(8, HIGH); // Tắt còi chip (chân 8)
+
+   else if (Incoming_value == '3') // Nếu giá trị nhận được là '3'
+
+   digitalWrite(9, LOW); // Bật LED (chân 9)
+
+   else if (Incoming_value == '4') // Nếu giá trị nhận được là '4'
+
+   digitalWrite(9, HIGH); // Tắt LED (chân 9)
+
+   }
+
+   }

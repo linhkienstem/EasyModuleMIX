@@ -1,0 +1,16 @@
+1. **Tổng quan**
+===
+
+Mục đích dự án: sử dụng Arduino kết hợp với module Bluetooth để điều
+khiển đèn LED và còi chip từ xa thông qua điện thoại di động. Đây là một
+ứng dụng thực tế phổ biến trong các hệ thống nhà thông minh, nơi người
+dùng có thể dễ dàng kiểm soát các thiết bị điện tử từ xa.
+
+Mở Rộng
+
+-  Điều khiển nhiều thiết bị: Có thể mở rộng để điều khiển nhiều thiết
+   bị bằng cách sử dụng nhiều chân digital trên Arduino.
+
+-  Ứng dụng phức tạp hơn: Phát triển ứng dụng trên điện thoại với giao
+   diện người dùng thân thiện để điều khiển nhiều thiết bị hoặc các chức
+   năng phức tạp hơn.

@@ -1,0 +1,13 @@
+1. **Tổng quan**
+===
+
+Mục đích của dự án: Mục đích của dự án này là tạo ra một hệ thống có khả năng đo nhiệt độ và độ ẩm trong môi trường và hiển thị các giá trị này lên màn hình LCD. Hệ thống này có thể được sử dụng trong nhiều ứng dụng như giám sát môi trường trong nhà, nhà kính, kho lạnh, v.v.
+
+Mô tả hệ thống:
+
+-  Cảm biến nhiệt độ và độ ẩm: Đo giá trị nhiệt độ và độ ẩm của môi
+   trường.
+
+-  Vi điều khiển: Xử lý dữ liệu từ cảm biến và điều khiển màn hình LCD.
+
+-  Màn hình LCD: Hiển thị giá trị nhiệt độ và độ ẩm.

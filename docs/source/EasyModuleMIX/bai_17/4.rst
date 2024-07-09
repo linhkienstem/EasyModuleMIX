@@ -1,0 +1,26 @@
+4. **Hướng dẫn lập trình**
+===
+
+..
+
+   #include <Servo.h>
+
+   Servo servo_1;
+
+   void setup() {
+
+   servo_1.attach(A1);
+
+   }
+
+   void loop() {
+
+   servo_1.write(90);
+
+   delay(1000);
+
+   servo_1.write(15);
+
+   delay(1000);
+
+   }

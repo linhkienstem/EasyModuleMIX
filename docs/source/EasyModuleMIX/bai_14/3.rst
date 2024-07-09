@@ -1,0 +1,13 @@
+3. **Giao tiếp I2C LCD Arduino**
+===
+
+Giao tiếp I2C (Inter-Integrated Circuit) là một giao thức giao tiếp được
+sử dụng rộng rãi trong các ứng dụng điện tử, cho phép các vi điều khiển,
+cảm biến và các phần tử điện tử khác truyền dữ liệu với nhau một cách dễ
+dàng và hiệu quả. Một trong những ứng dụng phổ biến của giao tiếp I2C là
+để kết nối màn hình LCD với vi điều khiển như Arduino Nano.
+
+Trên board Easy Module Mix for Arduino Nano, có một số chân được sử dụng
+để kết nối giao tiếp I2C, bao gồm chân SDA (Data) và chân SCL (Clock).
+Để sử dụng giao tiếp I2C trên Easy Module Mix for Arduino Nano, bạn cần
+sử dụng thư viện Wire.h được tích hợp sẵn trong IDE Arduino.

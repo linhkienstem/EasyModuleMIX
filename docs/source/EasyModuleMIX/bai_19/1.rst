@@ -1,0 +1,6 @@
+1. **APP INVENTOR**
+===
+
+Inventor (http://appinventor.mit.edu) là một nền tảng web mã nguồn mở được cung cấp ban đầu bởi Google, năm 2012 Google chuyển giao cho Trung tâm Nghiên cứu Di động của Viện Công nghệ Massachusetts (MIT) quản lý và phát triển.
+
+Môi trường lập trình App Inventor có cách tiếp cận tương tự như Scratch, câu lệnh đều là những khối lệnh trực quan được kéo thả để tạo ra các ứng dụng từ đơn giản đến phức tạp. Các ứng dụng có thể chạy trực tiếp trên các thiết bị di động như điện thoại và máy tính bảng hệ điều hành iOS và Android.

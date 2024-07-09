@@ -1,0 +1,13 @@
+2. **Ứng dụng và mở rộng**
+===
+
+Ứng dụng thực tiễn:
+-  Robot tránh vật cản: Sử dụng cảm biến khoảng cách để phát hiện và tránh vật cản.
+-  Giám sát khoảng cách trong nhà kho: Đo và hiển thị khoảng cách giữ các vật thể.
+
+-  An ninh gia đình: Giám sát chuyển động và khoảng cách trong các khu vực quan trọng.
+
+Ý tưởng mở rộng:
+-  Kết nối nhiều cảm biến: Giám sát nhiều vị trí khác nhau trong cùng một hệ thống.
+-  Sử dụng màn hình lớn hơn: Hiển thị nhiều thông tin hơn.
+-  Tích hợp IoT: Gửi dữ liệu lên cloud để giám sát từ xa và lưu trữ lịch sử.

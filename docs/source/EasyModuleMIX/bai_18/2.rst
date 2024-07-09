@@ -1,0 +1,28 @@
+2. **Thông số kỹ thuật**
+===
+
+-  Điện áp hoạt động: 12V
+
+-  Kích thước: Đường kính 28mm, chiều cao 19mm, chiều dài trục 7.5mm.
+
+-  Góc nhìn / step: 5.626 x 1/64.
+
+-  Số đầu vào điều khiển step: 4.
+
+-  Số step: 64.
+
+-  DC kháng: 200Ω ± 7% (25 ℃).
+
+-  Điện trở cách điện: > 10MΩ (500V).
+
+-  Cường độ điện môi: 600VAC/1mA/1s.
+
+-  Tần số khi tải kéo: > 600Hz.
+
+-  Tần số không tải: > 1000Hz.
+
+-  Mô-men xoắn: > 34.3mN.m (120Hz).
+
+-  Tiếng ồn : <40dB (120Hz, không tải, 10cm).
+
+-  Khối lượng: Khoảng 32g.
