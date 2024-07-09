@@ -30,6 +30,7 @@ html_theme = 'sphinx_rtd_theme' # pip3 install sphinx_rtd_theme
 
 html_logo = 'images/white_logo.png'
 
+html_style = './stemvn.css'
 
 html_favicon = 'images/favicon.ico'
 
