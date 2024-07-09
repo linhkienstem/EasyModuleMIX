@@ -5,90 +5,58 @@
 
 Tên sản phẩm: EASY MODULE MIX FOR ARDUINO NANO
 
-Mô tả: Bộ kit đa chức năng bao gồm nhiều module cảm biến và điều khiển,
-được thiết kế để sử dụng với Arduino Nano.
+Mô tả: Bộ kit đa chức năng bao gồm nhiều module cảm biến và điều khiển, được thiết kế để sử dụng với Arduino Nano.
 
-Khả năng mở rộng: Có thể kết nối và tương tác với nhiều loại cảm biến và
-module khác nhau.
+Khả năng mở rộng: Có thể kết nối và tương tác với nhiều loại cảm biến và module khác nhau.
 
-    B. **Arduino Nano**
-
+   B. **Arduino Nano**
 -  Vi điều khiển: ATmega328P
-
 -  Điện áp hoạt động: 5V
-
 -  Điện áp vào (khuyến nghị): 7-12V
-
 -  Điện áp vào (giới hạn): 6-20V
-
 -  Số chân Digital I/O: 14 (6 chân PWM)
-
 -  Số chân Analog Input: 8
-
 -  Flash Memory: 32 KB (ATmega328) trong đó 2 KB dùng cho bootloader
-
 -  SRAM: 2 KB
-
 -  EEPROM: 1 KB
-
 -  Tốc độ xung nhịp: 16 MHz
-
 -  Kết nối USB: Mini USB
 
    C. **Các Module Cảm Biến và Điều Khiển**
-
 LED Indicator Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Tích hợp LED màu đỏ, xanh lá, xanh dương, và vàng
 
 Button Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Tích hợp nút nhấn và điện trở kéo lên
 
 Buzzer Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Tích hợp buzzer tạo âm thanh
 
 Temperature Sensor (LM35):
-
 -  Điện áp hoạt động: 5V
-
 -  Phạm vi đo: 0°C - 100°C
-
 -  Độ chính xác: ±0.5°C
 
 Light Sensor Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Sử dụng quang trở (LDR)
 
 Relay Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Dòng điện tối đa: 10A
-
 -  Điện áp tải tối đa: 250V AC hoặc 30V DC
 
 Ultrasonic Sensor (HC-SR04):
-
 -  Điện áp hoạt động: 5V
-
 -  Phạm vi đo: 2cm - 400cm
-
 -  Độ chính xác: ±3mm
 
 I2C LCD Module:
-
 -  Điện áp hoạt động: 5V
-
 -  Kích thước: 16x2 hoặc 20x4 ký tự
-
 -  Giao tiếp: I2C
+
+.. 

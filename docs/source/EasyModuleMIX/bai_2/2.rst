@@ -48,3 +48,5 @@ chỉnh như thế này là có thể lập trình được.
 .. image:: ../media/image15.jpeg
    :width: 3.57512in
    :height: 3.10417in
+
+.. 

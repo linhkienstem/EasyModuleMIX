@@ -8,13 +8,10 @@
    phá và thực hiện các dự án phức tạp hơn. Bộ kit cung cấp đầy đủ các
    thành phần cần thiết để bắt đầu với Arduino và hỗ trợ phát triển
    nhiều dự án sáng tạo:
-
 -  Điều khiển đèn LED bằng nút nhấn
-
 -  Đo nhiệt độ và độ ẩm môi trường
-
 -  Hệ thống báo động sử dụng cảm biến siêu âm
-
 -  Điều khiển động cơ DC và servo
-
 -  Hiển thị thông tin trên màn hình LCD I2C
+
+.. 

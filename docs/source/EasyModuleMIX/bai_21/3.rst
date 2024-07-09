@@ -3,8 +3,7 @@
 
 ..
 
-   char Incoming_value = 0; // Biến để lưu trữ giá trị nhận được qua
-   Serial
+   char Incoming_value = 0; // Biến để lưu trữ giá trị nhận được qua Serial
 
    void setup()
 
@@ -28,8 +27,7 @@
 
    {
 
-   Incoming_value = Serial.read(); // Đọc dữ liệu từ Serial và lưu vào
-   biến Incoming_value
+   Incoming_value = Serial.read(); // Đọc dữ liệu từ Serial và lưu vào biến Incoming_value
 
    Serial.print(Incoming_value); // In giá trị nhận được lên Serial
    Monitor

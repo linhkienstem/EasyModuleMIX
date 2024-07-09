@@ -55,7 +55,6 @@ mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
 
 -  Bước 3: Copy thư mục arduino-1.8.19-windows vừa giải nén đến nơi lưu
    trữ.
-
 -  Bước 4: Chạy file Arduino IDE trong thư mục arduino-1.8.19-windows để
    khởi động Arduino IDE
 
@@ -93,3 +92,5 @@ Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
 .. image:: ../media/image11.jpeg
    :width: 5.10714in
    :height: 3.89583in
+
+.. 

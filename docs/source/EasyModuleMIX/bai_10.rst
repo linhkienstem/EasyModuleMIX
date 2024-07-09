@@ -10,3 +10,4 @@
    bai_10/3.rst
    bai_10/4.rst
    bai_10/5.rst
+.. 

@@ -9,3 +9,4 @@
    bai_17/2.rst
    bai_17/3.rst
    bai_17/4.rst
+.. 

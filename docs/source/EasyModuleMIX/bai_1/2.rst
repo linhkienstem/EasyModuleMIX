@@ -39,3 +39,5 @@ năng của bo mạch điều khiển Arduino Nano:
 Cấu trúc chính của Easy Module Mix là sự kết hợp của các mô-đun này với
 Arduino Nano, cho phép bạn tạo ra các ứng dụng và dự án sáng tạo một
 cách dễ dàng và linh hoạt.
+
+.. 

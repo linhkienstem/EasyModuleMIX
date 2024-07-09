@@ -8,3 +8,4 @@
    bai_6/1.rst
    bai_6/2.rst
    bai_6/3.rst
+.. 
