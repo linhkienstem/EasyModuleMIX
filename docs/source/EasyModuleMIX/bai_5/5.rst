@@ -1,0 +1,65 @@
+5. **Hướng dẫn lập trình**
+
+..
+
+   // Bao gồm thư viện TM1637Display để điều khiển màn hình 7 đoạn
+
+   #include <TM1637Display.h>
+
+   // Định nghĩa các chân kết nối
+
+   #define CLK 3 // Định nghĩa CLK là chân 3 (chân Clock kết nối với
+   chân D3 của Arduino)
+
+   #define DIO 2 // Định nghĩa DIO là chân 2 (chân Data In kết nối với
+   chân D2 của Arduino)
+
+   // Tạo một thể hiện của TM1637Display với các chân CLK và DIO đã được
+   định nghĩa
+
+   TM1637Display display(CLK, DIO);
+
+   void setup() {
+
+   // Thiết lập độ sáng của màn hình
+
+   // 0x0f thiết lập độ sáng tối đa (phạm vi từ 0-7 cho độ sáng)
+
+   display.setBrightness(0x0f);
+
+   }
+
+   void loop() {
+
+   // Vòng lặp để hiển thị các số từ 0-9 tuần tự trên màn hình 7 đoạn
+
+   for (int i = 0; i < 10; i++) {
+
+   // Hiển thị số hiện tại (i) trên màn hình
+
+   display.showNumberDec(i);
+
+   delay(1000); // Chờ 1 giây trước khi hiển thị số tiếp theo
+
+   }
+
+   // Hiển thị một số cụ thể, ví dụ, 1234
+
+   // Số 1234 sẽ được hiển thị trên màn hình 7 đoạn
+
+   display.showNumberDec(1234);
+
+   // Chờ 2 giây để giữ số được hiển thị
+
+   delay(2000);
+
+   // Xóa màn hình
+
+   // Điều này sẽ tắt tất cả các đoạn của màn hình 7 đoạn
+
+   display.clear(); // Chờ 1 giây trước khi bắt đầu lại vòng lặp
+
+   delay(1000);
+
+   }
+

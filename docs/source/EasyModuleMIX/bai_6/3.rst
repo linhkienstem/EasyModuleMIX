@@ -1,0 +1,111 @@
+3. **Hướng dẫn lập trình**
+========
+
+..
+
+   #include <TM1637Display.h> // Bao gồm thư viện TM1637Display để điều
+   khiển hiển thị 7 đoạn LED
+
+   #define CLK 3 // Chân CLK được kết nối với chân 2 của Arduino
+
+   #define DIO 2 // Chân DIO được kết nối với chân 3 của Arduino
+
+   #define RED_LED_PIN 4 // Đèn LED đỏ được kết nối với chân 4 của
+   Arduino
+
+   #define YELLOW_LED_PIN 5 // Đèn LED màu vàng được kết nối với chân 5
+   của Arduino
+
+   #define GREEN_LED_PIN 6 // Đèn LED màu xanh được kết nối với chân 6
+   của Arduino
+
+   TM1637Display display(CLK, DIO); // Tạo một thể hiện của lớp
+   TM1637Display
+
+   void setup() {
+
+   // Khởi tạo các đèn LED
+
+   pinMode(RED_LED_PIN, OUTPUT);
+
+   pinMode(YELLOW_LED_PIN, OUTPUT);
+
+   pinMode(GREEN_LED_PIN, OUTPUT);
+
+   // Khởi tạo hiển thị
+
+   display.setBrightness(0x0f); // Đặt độ sáng của hiển thị (0-7)
+
+   }
+
+   void loop() {
+
+   // Đèn xanh sáng trong 20 giây
+
+   greenLight();
+
+   countdownTimer(20);
+
+   // Đèn vàng sáng trong 3 giây
+
+   yellowLight();
+
+   countdownTimer(3);
+
+   // Đèn đỏ sáng trong 20 giây
+
+   redLight();
+
+   countdownTimer(20);
+
+   }
+
+   void redLight() {
+
+   digitalWrite(RED_LED_PIN, LOW);
+
+   digitalWrite(YELLOW_LED_PIN, HIGH);
+
+   digitalWrite(GREEN_LED_PIN, HIGH);
+
+   }
+
+   void yellowLight() {
+
+   digitalWrite(RED_LED_PIN, HIGH);
+
+   digitalWrite(YELLOW_LED_PIN, LOW);
+
+   digitalWrite(GREEN_LED_PIN, HIGH);
+
+   }
+
+   void greenLight() {
+
+   digitalWrite(RED_LED_PIN, HIGH);
+
+   digitalWrite(YELLOW_LED_PIN, HIGH);
+
+   digitalWrite(GREEN_LED_PIN, LOW);
+
+   }
+
+   void countdownTimer(int seconds) {
+
+   for (int i = seconds; i > 0; i--) {
+
+   // Cập nhật hiển thị 7 đoạn với giá trị đếm ngược
+
+   display.showNumberDec(i);
+
+   // Trễ một giây
+
+   delay(1000);
+
+   }
+
+   // Xóa hiển thị sau khi đếm ngược kết thúc
+
+   display.clear();
+
+   }
