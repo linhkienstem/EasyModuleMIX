@@ -1,0 +1,22 @@
+2. **Thông số kỹ thuật**
+===
+
+-  Nguồn hoạt động: 5V
+
+-  Loại dữ liệu: Analog
+
+-  Phạm vi phát hiện rộng
+
+-  Tốc độ phản hồi nhanh và độ nhạy cao
+
+-  Mạch đơn giản
+
+-  Ổn định khi sử dụng trong thời gian dài
+
+-  Khoảng đo rộng
+
+-  Bền, tuổi thọ cao
+
+-  Phát hiện nhanh, độ nhạy cao
+
+-  Mạch đơn giản

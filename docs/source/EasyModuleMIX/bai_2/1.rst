@@ -1,5 +1,4 @@
-1. **Kết nối EASY MODULE MIX FOR ARDUINO NANO với máy tính, cài đặt phần
-mềm Arduino IDE.**
+1. **Kết nối EASY MODULE MIX FOR ARDUINO NANO với máy tính, cài đặt phần mềm Arduino IDE.**
 ========
 
 Để lập trình được cho các board EASY MODULE MIX FOR ARDUINO NANO, các
