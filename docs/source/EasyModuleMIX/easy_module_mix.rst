@@ -1,3 +1,6 @@
+**Danh sách các bài học**
+========================
+
 .. toctree::
    :maxdepth: 1
    :caption: Bài 1: Giới thiệu về mạch Easy Module MIX
