@@ -1,4 +1,5 @@
 2. **Cấu tạo của EASY MODULE MIX FOR ARDUINO NANO**
+=========
 
 .. image:: ../media/image2.png
    :width: 6.5in
