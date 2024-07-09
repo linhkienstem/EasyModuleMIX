@@ -1,4 +1,4 @@
-**2. Dạo một vòng Arduino IDE**
+2. **Dạo một vòng Arduino IDE**
 ========
 
 **2.1 Giao diện**
