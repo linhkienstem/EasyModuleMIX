@@ -5,4 +5,7 @@
 .. toctree::
    :maxdepth: 1
 
-..    Các bài ở đây
+   bai_1/1.rst
+   bai_1/2.rst
+   bai_1/3.rst
+   bai_1/4.rst
