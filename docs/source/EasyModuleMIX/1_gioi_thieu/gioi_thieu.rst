@@ -1,11 +1,26 @@
+**BÀI 1: GIỚI THIỆU VỀ MẠCH EASY MODULE MIX FOR ARDUINO NANO**
+============================================
+
 .. toctree::
    :maxdepth: 1
-   :caption: Cửa hàng
+   :caption: 1. EASY MODULE MIX FOR ARDUINO NANO là gì?
 
-   store/store.rst
+   1.rst
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Easy Module MIX
+   :maxdepth: 1
+   :caption: 2. Cấu tạo của mạch EASY MODULE MIX FOR ARDUINO NANO
 
-   EasyModuleMIX/easy_module_mix.rst
+   2.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 3. Thông số kỹ thuật
+
+   3.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 4. Ứng dụng và một số dự án mẫu
+
+   4.rst
