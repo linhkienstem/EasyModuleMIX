@@ -1,0 +1,14 @@
+2. **Thông số kỹ thuật**
+===
+
+-  Phạm vi phát hiện: góc 360 độ hình nón, độ xa tối đa 6m.
+
+-  Nhiệt độ hoạt động: 32-122 ° F ( 050 ° C)
+
+-  Điện áp hoạt động: DC 3.8V – 5V
+
+-  Mức tiêu thụ dòng: ≤ 50 uA
+
+-  Thời gian báo: 30 giây có thể tùy chỉnh bằng biến trở.
+
+-  Độ nhạy có thể điều chỉnh bằng biến trở.

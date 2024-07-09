@@ -1,0 +1,12 @@
+2. **Thông số kĩ thuật**
+===
+
+-  Nguồn: 3.3V – 5V, 15mA
+
+-  Ngõ ra: Digital
+
+-  Khoảng cách: 80cm
+
+-  Góc quét: 60 độ
+
+-  Kích thước: 3.2 x 1.4cm
