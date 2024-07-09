@@ -11,7 +11,7 @@ Linh kiện STEM xin chào tất cả các bạn!
    store/store.rst
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 2
    :caption: Easy Module MIX
 
    EasyModuleMIX/easy_module_mix.rst
