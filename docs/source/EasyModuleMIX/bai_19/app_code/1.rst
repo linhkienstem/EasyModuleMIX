@@ -6,108 +6,130 @@
 .. image:: ../../media/image69.png
    :width: 6.41619in
    :height: 3.3212in
+   :align: center
+|
 
 Tiếp theo sẽ có bảng hiện ra, kéo xuống dưới ấn **I accept the terms of service!**, sau đó ấn **Continue** để tiếp tục:
 
 .. image:: ../../media/image70.png
    :width: 5.89937in
    :height: 3.10284in
+   :align: center
+|
 
 Chọn **START A BLANK PROJECT:**
 
 .. image:: ../../media/image71.png
    :width: 5.71108in
    :height: 3.00808in
+   :align: center
+|
 
 Nhập tên cho dự án của mình rồi ấn OK
 
 .. image:: ../../media/image72.png
    :width: 3.73458in
    :height: 1.73358in
+   :align: center
+|
 
 Giao diện làm việc sẽ hiện ra:
 
 .. image:: ../../media/image73.png
    :width: 6.5in
    :height: 3.42847in
+   :align: center
+|
 
-Chúng ta sẽ kéo phần **ListPicker** vào trong khu vực có hình điện
-thoại:
+Chúng ta sẽ kéo phần **ListPicker** vào trong khu vực có hình điện thoại:
 
 .. image:: ../../media/image74.png
    :width: 6.5in
    :height: 3.42361in
+   :align: center
+|
 
 Ý nghĩa của nút này là chúng ta sẽ tạo nút kết nối Bluetooth và hiển thị trạng thái khi đã kết nối
 
-Ở phần **Palete** kéo xuống dưới click vào **Layout,** kéo
-**TableArrangement** vào dưới phần **text for** **ListPicker1**:
+Ở phần **Palete** kéo xuống dưới click vào **Layout,** kéo **TableArrangement** vào dưới phần **text for** **ListPicker1**:
 
 .. image:: ../../media/image75.png
    :width: 6.5in
    :height: 3.06389in
+   :align: center
+|
 
 Tiếp theo chúng ta sẽ vào phần **User Interface** kéo 4 Button vào để có thể bật tắt 2 đèn LED:
 
 .. image:: ../../media/image76.png
    :width: 6.5in
    :height: 3.09583in
+   :align: center
+|
 
 Ở mục **Connectivity** trên cột **Palette** kéo phần **BluetoothClient** vào giao diện để gán phương thức truyền cho app là điều khiển qua Bluetooth
 
 .. image:: ../../media/image77.png
    :width: 1.99286in
    :height: 1.66675in
+   :align: center
+|
 
 Sau đó chúng ta sẽ đổi tên cho các chức năng tương ứng hoặc có thể tải lên hình ảnh để có giao diện đẹp hơn:
 
--  Đối với nút **Tex for ListPicker1** sẽ đổi thành **KẾT NỐI:**
+   -  Đối với nút **Tex for ListPicker1** sẽ đổi thành **KẾT NỐI:**
+      Ở cột **Properties** cuộn xuống sẽ có mục đổi tên cho nút
 
-Ở cột **Properties** cuộn xuống sẽ có mục đổi tên cho nút
+      .. image:: ../../media/image78.png
+         :width: 1.91288in
+         :height: 0.73308in
+         :align: center
 
-.. image:: ../../media/image78.png
-   :width: 1.91288in
-   :height: 0.73308in
+   -  Đối với các nút bật tắt chúng ta có thể tải hình ảnh lên:
 
--  Đối với các nút bật tắt chúng ta có thể tải hình ảnh lên:
+      Tại mục **Media** chúng ta chọn **Upload File**
 
-Tại mục **Media** chúng ta chọn **Upload File**
+      .. image:: ../../media/image79.png
+         :width: 2.50035in
+         :height: 0.96889in
+         :align: center
 
-.. image:: ../../media/image79.png
-   :width: 2.50035in
-   :height: 0.96889in
+      Sau đó tải lên hình ảnh nút ON và OFF:
 
-Sau đó tải lên hình ảnh nút ON và OFF:
+      .. image:: ../../media/image80.png
+         :width: 2.33366in
+         :height: 1.4377in
+         :align: center
 
-.. image:: ../../media/image80.png
-   :width: 2.33366in
-   :height: 1.4377in
+      Khi đã có ảnh chúng ta sẽ gán cho từng nút (ví dụ Nút 1 ON):
 
-Khi đã có ảnh chúng ta sẽ gán cho từng nút (ví dụ Nút 1 ON):
+      Ở mục **Image** chúng ta chọn ảnh ON sau đó ấn **OK**
 
-Ở mục **Image** chúng ta chọn ảnh ON sau đó ấn **OK**
+      .. image:: ../../media/image81.png
+         :width: 2.17934in
+         :height: 2.97379in
+         :align: center
 
-.. image:: ../../media/image81.png
-   :width: 2.17934in
-   :height: 2.97379in
+      Tiếp theo ở phần TextColor sẽ xóa tên đi và chỉnh sửa kích thước nút phù hợp với giao diện:
 
-Tiếp theo ở phần TextColor sẽ xóa tên đi và chỉnh sửa kích thước nút phù hợp với giao diện:
+      .. image:: ../../media/image82.png
+         :width: 2.10908in
+         :height: 1.72792in
+         :align: center
 
-.. image:: ../../media/image82.png
-   :width: 2.10908in
-   :height: 1.72792in
+      Để thuận tiện cho việc chỉnh sửa giao diện các nút chúng ta có thể đổi size để hiển thị rõ hơn:
 
-Để thuận tiện cho việc chỉnh sửa giao diện các nút chúng ta có thể đổi size để hiển thị rõ hơn:
+      .. image:: ../../media/image83.png
+         :width: 3.26614in
+         :height: 1.55023in
+         :align: center
 
-.. image:: ../../media/image83.png
-   :width: 3.26614in
-   :height: 1.55023in
+      Tương tự với các nút còn lại chúng ta được giao diện phần app như sau:
 
-Tương tự với các nút còn lại chúng ta được giao diện phần app như sau:
-
-.. image:: ../../media/image84.png
-   :width: 5.04641in
-   :height: 2.35499in
+      .. image:: ../../media/image84.png
+         :width: 5.04641in
+         :height: 2.35499in
+         :align: center
 
 
 .. 

@@ -1,63 +1,47 @@
 4. **Hướng dẫn lập trình**
 ========
-..
 
-   Trước khi lập trình chúng ta cần phải cài thư viện DHT.h. Chúng ta sẽ
-   vào theo chỉ dẫn sau:
+Trước khi lập trình chúng ta cần phải cài thư viện DHT.h. Chúng ta sẽ vào theo chỉ dẫn sau:
 
    Sketch => Include Library => Manage Libraries…
 
-   .. image:: ../media/image35.png
-      :width: 4.11577in
-      :height: 2.24752in
+.. image:: ../media/image35.png
+   :width: 4.11577in
+   :height: 2.24752in
+   :align: center
+|
 
-   Bảng Library Manager hiện ra chúng ta nhập DHT => Enter. Sau đó kéo
-   xuống tìm thư viện DHT sensor library và ấn Install.
+Bảng Library Manager hiện ra chúng ta nhập DHT => Enter. Sau đó kéo xuống tìm thư viện DHT sensor library và ấn Install.
 
-   .. image:: ../media/image36.png
-      :width: 4.63173in
-      :height: 2.58259in
+.. image:: ../media/image36.png
+   :width: 4.63173in
+   :height: 2.58259in
+   :align: center
+|
 
-   Code mẫu hiển thị giá trị nhiệt độ, độ ẩm lên Serial Monitor:
+Code mẫu hiển thị giá trị nhiệt độ, độ ẩm lên Serial Monitor:
 
    // Gọi thư viện DHT11
-
    #include "DHT.h"
 
-   const int DHTPIN = 2; //Đọc dữ liệu từ DHT11 ở chân 2 trên mạch
-   Arduino
-
-   const int DHTTYPE = DHT11; //Khai báo loại cảm biến, có 2 loại là
-   DHT11 và DHT22
+   const int DHTPIN = 2; //Đọc dữ liệu từ DHT11 ở chân 2 trên mạch Arduino
+   const int DHTTYPE = DHT11; //Khai báo loại cảm biến, có 2 loại là DHT11 và DHT22
 
    DHT dht(DHTPIN, DHTTYPE);
 
    void setup() {
-
-   Serial.begin(9600);
-
-   dht.begin(); // Khởi động cảm biến
-
+      Serial.begin(9600);
+      dht.begin(); // Khởi động cảm biến
    }
-
    void loop() {
-
-   float h = dht.readHumidity(); //Đọc độ ẩm
-
-   float t = dht.readTemperature(); //Đọc nhiệt độ
-
-   Serial.print("Nhiet do: ");
-
-   Serial.println(t); //Xuất nhiệt độ
-
-   Serial.print("Do am: ");
-
-   Serial.println(h); //Xuất độ ẩm
-
-   Serial.println(); //Xuống hàng
-
-   delay(1000); //Đợi 1 giây
-
+      float h = dht.readHumidity(); //Đọc độ ẩm
+      float t = dht.readTemperature(); //Đọc nhiệt độ
+      Serial.print("Nhiet do: ");
+      Serial.println(t); //Xuất nhiệt độ
+      Serial.print("Do am: ");
+      Serial.println(h); //Xuất độ ẩm
+      Serial.println(); //Xuống hàng
+      delay(1000); //Đợi 1 giây
    }
 
 Sau khi upload chương trình lên mạch Arduino, bạn hãy bấm Ctrl + Shift + M để mở cửa sổ Serial Monitor và xem kết quả.
@@ -65,3 +49,7 @@ Sau khi upload chương trình lên mạch Arduino, bạn hãy bấm Ctrl + Shif
 .. image:: ../media/image37.png
    :width: 5.43634in
    :height: 2.63511in
+   :align: center
+|
+
+.. 

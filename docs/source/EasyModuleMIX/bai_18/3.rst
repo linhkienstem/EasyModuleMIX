@@ -16,5 +16,7 @@
 .. image:: ../media/image67.png
    :width: 6.48958in
    :height: 3.9375in
+   :align: center
+|
 
 .. 

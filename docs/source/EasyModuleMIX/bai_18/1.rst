@@ -7,6 +7,8 @@
    :alt: Động Cơ Bước 12V
    :width: 2.31195in
    :height: 2.15839in
+   :align: center
+|
 
 Động cơ bước hoạt động dựa trên nguyên lý từ trường. Bằng cách cấp điện cho các cuộn dây trong một thứ tự nhất định, từ trường tạo ra sẽ kéo rotor (phần quay của động cơ) theo các bước góc nhỏ. Điều này cho phép điều khiển chính xác vị trí và tốc độ của động cơ.
 

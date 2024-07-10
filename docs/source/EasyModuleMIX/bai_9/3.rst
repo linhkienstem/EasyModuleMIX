@@ -1,8 +1,7 @@
 3. **Sơ đồ kết nối**
 ========
 
--  Đối với tín hiệu số (thấp hoặc cao; 0 hoặc 1) kết nối chân D0 của cảm
-   biến với 1 trong các chân tín hiệu số.
+-  Đối với tín hiệu số (thấp hoặc cao; 0 hoặc 1) kết nối chân D0 của cảm biến với 1 trong các chân tín hiệu số.
 
 +-----------------------------------+-----------------------------------+
 | **CẢM BIẾN ÁNH SÁNG**             | **ARDUINO**                       |
@@ -13,10 +12,10 @@
 .. image:: ../media/image39.png
    :width: 6.48958in
    :height: 3.9375in
+   :align: center
+|
 
--  Đối với tín tương tự (Ngõ ra Analog 0 – 5V tỷ lệ thuận với cường độ
-   ánh sáng, ngõ TTL tích cực mức thấp; giá trị từ 0-1023) kết nối chân
-   A0 của cảm biến với 1 trong các chân tín hiệu tương tự.
+-  Đối với tín tương tự (Ngõ ra Analog 0 – 5V tỷ lệ thuận với cường độ ánh sáng, ngõ TTL tích cực mức thấp; giá trị từ 0-1023) kết nối chân A0 của cảm biến với 1 trong các chân tín hiệu tương tự.
 
 +-----------------------------------+-----------------------------------+
 | **CẢM BIẾN ÁNH SÁNG**             | **ARDUINO**                       |
@@ -27,3 +26,7 @@
 .. image:: ../media/image40.png
    :width: 6.48958in
    :height: 3.9375in
+   :align: center
+|
+
+.. 

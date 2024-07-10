@@ -1,33 +1,23 @@
 1. **Cảm biến nhiệt độ độ ẩm DHT11**
 ========
 
-Cảm biến nhiệt độ độ ẩm là cảm biến rất thông dụng hiện nay vì chi phí
-rẻ và tính dễ dàng khi sử dụng. Bạn có thể dễ dàng lấy dữ liệu thông qua
-giao tiếp 1-wire (chỉ cần 1 chân digital để truyền dữ liệu) từ cảm biến
-này.
+Cảm biến nhiệt độ độ ẩm là cảm biến rất thông dụng hiện nay vì chi phí rẻ và tính dễ dàng khi sử dụng. Bạn có thể dễ dàng lấy dữ liệu thông qua giao tiếp 1-wire (chỉ cần 1 chân digital để truyền dữ liệu) từ cảm biến này.
 
-   .. image:: ../media/image32.jpeg
-      :alt: Module Cảm Biến Độ Ẩm, Nhiệt Độ DHT11 - Nshop
-      :width: 2.08333in
-      :height: 1.4375in
+.. image:: ../media/image32.jpeg
+   :alt: Module Cảm Biến Độ Ẩm, Nhiệt Độ DHT11 - Nshop
+   :width: 2.08333in
+   :height: 1.4375in
+   :align: center
+|
 
-Cảm biến được tích hợp bộ tiền xử lý tín hiệu giúp dữ liệu nhận về được
-chính xác mà không cần phải qua bất kỳ tính toán nào.
-
-Cảm biến nhiệt độ và độ ẩm thường được ứng dụng trong các chương trình
-như hiển thị trạng thái nhiệt độ lên màn hình, tự động bật quạt khi trời
-nóng,….
+Cảm biến được tích hợp bộ tiền xử lý tín hiệu giúp dữ liệu nhận về được chính xác mà không cần phải qua bất kỳ tính toán nào. Cảm biến nhiệt độ và độ ẩm thường được ứng dụng trong các chương trình như hiển thị trạng thái nhiệt độ lên màn hình, tự động bật quạt khi trời nóng,….
 
 Đặc điểm:
+   -  Đọc giá trị trực tiếp, không cần phải tính toán lại
+   -  Sử dụng duy nhất một cổng tín hiệu ngõ ra
+   -  Cảm biến độ ẩm điện dung chính xác cao
+   -  Khoảng cách truyền xa và ổn định
+   -  Điện năng tiêu thụ thấp
+   -  Giá thành rẻ
 
--  Đọc giá trị trực tiếp, không cần phải tính toán lại
-
--  Sử dụng duy nhất một cổng tín hiệu ngõ ra
-
--  Cảm biến độ ẩm điện dung chính xác cao
-
--  Khoảng cách truyền xa và ổn định
-
--  Điện năng tiêu thụ thấp
-
--  Giá thành rẻ
+.. 

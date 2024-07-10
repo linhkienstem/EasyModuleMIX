@@ -18,70 +18,50 @@ Kết nối phần cứng:
 .. image:: ../media/image93.png
    :width: 6.48958in
    :height: 3.36458in
+   :align: center
+|
 
 Lập trình:
 
-..
-
    #include <SoftwareSerial.h>
-
-   int times;
-
-   int rxPin = 3; //rx nối 2
-
-   int txPin = 2; //tx nối 3
 
    SoftwareSerial hc06(rxPin, txPin);
 
-   String message;
-
    char ch;
+   int times;
+   String message;
+   int rxPin = 3; //rx nối 2
+   int txPin = 2; //tx nối 3
 
-   void setup()
-
-   {
-
+   void setup() {
       Serial.begin(9600);
-
       hc06.begin(9600); // đặt baudrate giao tiếp hc06
-
    }
-
    void loop() {
-
-   if(Serial.available())
-   {
-
-      ch = Serial.read();
-
-      hc06.write(ch);
-
-      Serial.write(ch);
-
+      if(Serial.available()) {
+         ch = Serial.read();
+         hc06.write(ch);
+         Serial.write(ch);
+      }
+      if(hc06.available()) {
+         Serial.write(hc06.read());
+      }
    }
 
-   if(hc06.available())
-
-   {
-
-      Serial.write(hc06.read());
-
-   }
-
-   }
-
-Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa sổ
-**Serial Monitor** và xem kết quả. Ví dụ để đổi tên thành STEMVN chúng
-ta sẽ nhập lệnh sau **AT+NAMESTEMVN** rồi ấn Enter.
+Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa sổ **Serial Monitor** và xem kết quả. Ví dụ để đổi tên thành STEMVN chúng ta sẽ nhập lệnh sau **AT+NAMESTEMVN** rồi ấn Enter.
 
 .. image:: ../media/image94.png
    :width: 4.48474in
    :height: 3.13482in
+   :align: center
+|
 
 Thông báo OKsetname sẽ được hiện ra:
 
 .. image:: ../media/image95.png
    :width: 4.52368in
    :height: 3.13812in
+   :align: center
+|
 
 .. 

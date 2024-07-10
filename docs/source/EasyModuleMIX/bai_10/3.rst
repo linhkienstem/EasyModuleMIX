@@ -1,8 +1,7 @@
 3. **Sơ đồ kết nối**
 =========
 
--  Đối với tín hiệu số (thấp hoặc cao; 0 hoặc 1) kết nối chân D0 của cảm
-   biến với 1 trong các chân tín hiệu số.
+-  Đối với tín hiệu số (thấp hoặc cao; 0 hoặc 1) kết nối chân D0 của cảm biến với 1 trong các chân tín hiệu số.
 
 +-----------------------------------+-----------------------------------+
 | **CẢM BIẾN KHÍ GAS**              | **ARDUINO**                       |
@@ -13,9 +12,10 @@
 .. image:: ../media/image44.png
    :width: 6.5in
    :height: 3.94236in
+   :align: center
+|
 
--  Đối với tín tương tự (giá trị từ 0-1023) kết nối chân A0 của cảm biến
-   với 1 trong các chân tín hiệu tương tự.
+-  Đối với tín tương tự (giá trị từ 0-1023) kết nối chân A0 của cảm biến với 1 trong các chân tín hiệu tương tự.
 
 +-----------------------------------+-----------------------------------+
 | **CẢM BIẾN ÁNH SÁNG**             | **ARDUINO**                       |
@@ -26,3 +26,7 @@
 .. image:: ../media/image45.png
    :width: 6.5in
    :height: 3.94236in
+   :align: center
+|
+
+.. 

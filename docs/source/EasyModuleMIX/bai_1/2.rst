@@ -5,7 +5,6 @@
    :width: 6.5in
    :height: 4.59514in
    :align: center
-
 |
 
 Easy Module Mix for Arduino Nano thường bao gồm một loạt các mô-đun cảm biến, hoạt động và các thành phần khác được thiết kế để mở rộng tính năng của bo mạch điều khiển Arduino Nano:

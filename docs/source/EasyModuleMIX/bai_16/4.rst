@@ -1,60 +1,39 @@
 4. **Hướng dẫn lập trình**
 =========
 
-..
-
    #include <Wire.h>
-
    #include <LiquidCrystal_I2C.h>
 
    #define TRIGPIN 9
-
    #define ECHOPIN 10
 
    LiquidCrystal_I2C lcd(0x27, 16, 2);
 
    void setup() {
-
-   lcd.init();
-
-   lcd.backlight();
-
-   pinMode(TRIGPIN, OUTPUT);
-
-   pinMode(ECHOPIN, INPUT);
-
+      lcd.init();
+      lcd.backlight();
+      pinMode(TRIGPIN, OUTPUT);
+      pinMode(ECHOPIN, INPUT);
    }
-
    void loop() {
+      long duration, distance;
 
-   long duration, distance;
+      digitalWrite(TRIGPIN, LOW);
+      delayMicroseconds(2);
+      digitalWrite(TRIGPIN, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(TRIGPIN, LOW);
 
-   digitalWrite(TRIGPIN, LOW);
+      duration = pulseIn(ECHOPIN, HIGH);
+      distance = duration \* 0.034 / 2;
 
-   delayMicroseconds(2);
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Distance: ");
+      lcd.print(distance);
+      lcd.print(" cm");
 
-   digitalWrite(TRIGPIN, HIGH);
-
-   delayMicroseconds(10);
-
-   digitalWrite(TRIGPIN, LOW);
-
-   duration = pulseIn(ECHOPIN, HIGH);
-
-   distance = duration \* 0.034 / 2;
-
-   lcd.clear();
-
-   lcd.setCursor(0, 0);
-
-   lcd.print("Distance: ");
-
-   lcd.print(distance);
-
-   lcd.print(" cm");
-
-   delay(2000);
-
-}
+      delay(2000);
+   }
 
 .. 

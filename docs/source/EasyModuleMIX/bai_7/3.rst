@@ -12,3 +12,7 @@
 .. image:: ../media/image29.png
    :width: 6.48958in
    :height: 3.92708in
+   :align: center
+|
+
+.. 

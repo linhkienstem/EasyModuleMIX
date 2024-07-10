@@ -12,3 +12,7 @@
 .. image:: ../media/image34.png
    :width: 6.90418in
    :height: 4.1875in
+   :align: center
+|
+
+.. 

@@ -7,8 +7,7 @@
 
 Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước Arduino IDE.
 Link tải: *https://oracle.com/java/technologies/javase/upgrade.html*
-Chú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình
-trạng không chạy được Arduino IDE.
+Chú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình trạng không chạy được Arduino IDE.
 
 2 bản JRE phổ biến nhất là bản dành cho Windows 32bit (x86) và Windows
 64bit (x64) đã đánh dấu trong hình, chọn "Accept License Agreement".
@@ -18,6 +17,7 @@ trạng không chạy được Arduino IDE.
    :width: 5.52708in
    :height: 3.32274in
    :align: center
+|
 
 Bản JRE mới nhất là 7u80
 
@@ -29,6 +29,7 @@ Bản JRE mới nhất là 7u80
    :width: 6.5in
    :height: 3.39167in
    :align: center
+|
 
 Bạn sẽ được chuyển đến một trang mời quyền góp tiền để phát triển phần mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
 
@@ -36,6 +37,7 @@ Bạn sẽ được chuyển đến một trang mời quyền góp tiền để 
    :width: 6.5in
    :height: 2.99514in
    :align: center
+|
 
 -  Bước 2: Sau khi download xong, các bạn bấm chuột phải vào file vừa download arduino-1.8.19-windows và chọn “Extract to arduino-1.8.19-windows ” để giải nén.
 
@@ -43,6 +45,7 @@ Bạn sẽ được chuyển đến một trang mời quyền góp tiền để 
    :width: 5.92244in
    :height: 2.70843in
    :align: center
+|
 
 -  Bước 3: Copy thư mục arduino-1.8.19-windows vừa giải nén đến nơi lưu
    trữ.
@@ -52,20 +55,19 @@ Bạn sẽ được chuyển đến một trang mời quyền góp tiền để 
 .. image:: ../media/image7.png
    :width: 6.5in
    :height: 3.40972in
+|
 
 **1.3 Cài đặt Driver**
 
-Để máy tính của bạn và board Arduino giao tiếp được với nhau, chúng ta
-cần phải cài đặt driver trước tiên.
+Để máy tính của bạn và board Arduino giao tiếp được với nhau, chúng ta cần phải cài đặt driver trước tiên.
 
-Đầu tiên, các bạn chạy file C:\\Program Files
-(x86)\\Arduino\\drivers\\dpinst-x86.exe (Windows x86). Cửa sổ “Device
-Driver Installation Wizard” hiện ra, các bạn chọn Next để tiếp tục.
+Đầu tiên, các bạn chạy file C:\\Program Files(x86)\\Arduino\\drivers\\dpinst-x86.exe (Windows x86). Cửa sổ “Device Driver Installation Wizard” hiện ra, các bạn chọn Next để tiếp tục.
 
 .. image:: ../media/image8.jpeg
    :width: 4.68684in
    :height: 3.54167in
    :align: center
+|
 
 Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
 
@@ -73,6 +75,7 @@ Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
    :width: 4.59816in
    :height: 3.52083in
    :align: center
+|
 
 Đợi khoảng 10 giây trong lúc quá trình cài đặt diễn ra …
 
@@ -80,6 +83,7 @@ Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
    :width: 4.35981in
    :height: 3.35417in
    :align: center
+|
 
 Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
 
@@ -87,5 +91,6 @@ Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
    :width: 5.10714in
    :height: 3.89583in
    :align: center
+|
 
 .. 

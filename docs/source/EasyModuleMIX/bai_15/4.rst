@@ -1,57 +1,35 @@
 4. **Hướng dẫn lập trình**
 =========
 
-..
-
    #include <Wire.h>
-
    #include <LiquidCrystal_I2C.h>
-
    #include <DHT.h>
 
    #define DHTPIN 2 // Chân DATA của DHT11 nối với chân digital 2
-
    #define DHTTYPE DHT11 // Loại cảm biến DHT11
 
    DHT dht(DHTPIN, DHTTYPE);
-
-   LiquidCrystal_I2C lcd(0x27, 16, 2); // Địa chỉ I2C của màn hình LCD
-   là 0x27
+   LiquidCrystal_I2C lcd(0x27, 16, 2); // Địa chỉ I2C của màn hình LCD là 0x27
 
    void setup() {
-
-   lcd.init(); // Khởi tạo LCD
-
-   lcd.backlight(); // Bật đèn nền LCD
-
-   dht.begin(); // Khởi tạo cảm biến DHT
-
+      lcd.init(); // Khởi tạo LCD
+      lcd.backlight(); // Bật đèn nền LCD
+      dht.begin(); // Khởi tạo cảm biến DHT
    }
-
    void loop() {
+      float h = dht.readHumidity();
+      float t = dht.readTemperature();
 
-   float h = dht.readHumidity();
+      lcd.setCursor(0, 0);
+      lcd.print("Temp: ");
+      lcd.print(t);
+      lcd.print(" C");
+      lcd.setCursor(0, 1);
+      lcd.print("Humidity: ");
+      lcd.print(h);
+      lcd.print(" %");
 
-   float t = dht.readTemperature();
-
-   lcd.setCursor(0, 0);
-
-   lcd.print("Temp: ");
-
-   lcd.print(t);
-
-   lcd.print(" C");
-
-   lcd.setCursor(0, 1);
-
-   lcd.print("Humidity: ");
-
-   lcd.print(h);
-
-   lcd.print(" %");
-
-   delay(2000); // Cập nhật mỗi 2 giây
-
+      delay(2000); // Cập nhật mỗi 2 giây
    }
 
 .. 

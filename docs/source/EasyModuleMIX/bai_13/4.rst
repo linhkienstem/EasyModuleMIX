@@ -1,57 +1,44 @@
 4. **Hướng dẫn lập trình**
 =========
 
--  Code hiển thị khoảng cách đo được từ cảm biến siêu âm lên Serial
+Code hiển thị khoảng cách đo được từ cảm biến siêu âm lên Serial
 
-..
+   float getDistance(int trig,int echo) {
+      float dem=0;
 
-   float getDistance(int trig,int echo){
+      pinMode(trig,OUTPUT);
+      digitalWrite(trig,LOW);
 
-   float dem=0;
+      delayMicroseconds(2);
 
-   pinMode(trig,OUTPUT);
+      digitalWrite(trig,HIGH);
+      delayMicroseconds(10);
 
-   digitalWrite(trig,LOW);
+      digitalWrite(trig,LOW);
+      pinMode(echo, INPUT);
 
-   delayMicroseconds(2);
+      dem = pulseIn(echo,HIGH,30000)/58.0;
 
-   digitalWrite(trig,HIGH);
+      if(dem==0) dem=30;
 
-   delayMicroseconds(10);
-
-   digitalWrite(trig,LOW);
-
-   pinMode(echo, INPUT);
-
-   dem = pulseIn(echo,HIGH,30000)/58.0;
-
-   if(dem==0) dem=30;
-
-   return dem;
-
+      return dem;
    }
 
    void setup() {
-
-   Serial.begin(9600);
-
+      Serial.begin(9600);
    }
-
    void loop() {
-
-   Serial.println("sieu am:");
-
-   Serial.println((getDistance(2,12)));
-
-   delay(1000);
-
+      Serial.println("sieu am:");
+      Serial.println((getDistance(2,12)));
+      delay(1000);
    }
 
-Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa sổ
-**Serial Monitor** và xem kết quả.
+Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa sổ **Serial Monitor** và xem kết quả.
 
 .. image:: ../media/image57.png
    :width: 4.84522in
    :height: 3.35562in
+   :align: center
+|
 
 .. 

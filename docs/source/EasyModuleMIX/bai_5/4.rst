@@ -14,3 +14,7 @@
 .. image:: ../media/image25.png
    :width: 6.5in
    :height: 3.94236in
+   :align: center
+|
+
+.. 

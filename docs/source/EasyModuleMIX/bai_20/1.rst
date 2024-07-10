@@ -7,6 +7,8 @@ Module thu phát bluetooth HC-06 ra chân hoàn chỉnh giúp dễ dàng kết n
    :alt: Module thu phát bluetooth HC-06
    :width: 1.36373in
    :height: 0.80015in
+   :align: center
+|
 
 Lưu ý là khi thay đổi Baudrate cho COM ảo không làm thay đổi baudrate của UART, baudrate UART chỉ có thể thay đổi bằng AT command trên module. Module thu phát bluetooth HC-06 được setup mặc định là Slave không thể thay đổi được nên chỉ có thể giao tiếp với các thiết bị bluetooth ở dạng master như Smart phone, HC-05 master,… hai module bluetooth được set là Slave không thể giao tiếp với nhau..
 

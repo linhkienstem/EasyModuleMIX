@@ -17,5 +17,7 @@ Một số câu lệnh thông dụng:
 .. image:: ../media/image92.png
    :width: 5.46632in
    :height: 1.99381in
+   :align: center
+|
 
 .. 

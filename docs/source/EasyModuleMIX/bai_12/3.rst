@@ -6,23 +6,15 @@ Hướng dẫn kết nối:
 .. image:: ../media/image53.png
    :width: 6.48958in
    :height: 3.92708in
+   :align: center
+|
 
 Hướng dẫn lập trình:
-
-void setup()
-
-{
-
-Serial.begin(9600);
-
-}
-
-void loop()
-
-{
-
-Serial.println(digitalRead(3));
-
-}
+   void setup() {
+      Serial.begin(9600);
+   }
+   void loop() {
+      Serial.println(digitalRead(3));
+   }
 
 .. 

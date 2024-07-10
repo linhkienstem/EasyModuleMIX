@@ -2,19 +2,13 @@
 =========
 
 Ứng dụng thực tiễn:
-
--  Nhà thông minh: Tự động điều chỉnh điều hòa dựa trên nhiệt độ và độ ẩm.
-
--  Nhà kính: Giám sát và điều chỉnh điều kiện môi trường để tối ưu hóa sự phát triển của cây trồng.
-
--  Kho lạnh: Bảo vệ hàng hóa bằng cách giám sát nhiệt độ và độ ẩm.
+    -  Nhà thông minh: Tự động điều chỉnh điều hòa dựa trên nhiệt độ và độ ẩm.
+    -  Nhà kính: Giám sát và điều chỉnh điều kiện môi trường để tối ưu hóa sự phát triển của cây trồng.
+    -  Kho lạnh: Bảo vệ hàng hóa bằng cách giám sát nhiệt độ và độ ẩm.
 
 Ý tưởng mở rộng:
-
--  Kết nối nhiều cảm biến: Giám sát nhiều vị trí khác nhau trong cùng một hệ thống.
-
--  Sử dụng màn hình lớn hơn: Hiển thị nhiều thông tin hơn.
-
--  Tích hợp IoT: Gửi dữ liệu lên cloud để giám sát từ xa và lưu trữ lịch sử.
+    -  Kết nối nhiều cảm biến: Giám sát nhiều vị trí khác nhau trong cùng một hệ thống.
+    -  Sử dụng màn hình lớn hơn: Hiển thị nhiều thông tin hơn.
+    -  Tích hợp IoT: Gửi dữ liệu lên cloud để giám sát từ xa và lưu trữ lịch sử.
 
 .. 

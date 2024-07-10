@@ -1,25 +1,29 @@
 3. **Xuất thành bộ cài trên thiết bị di động**
 =========
 
-..
-
 Ở phần thanh công cụ ngang trên cùng, chúng ta sẽ chọn **Build**
 
 .. image:: ../../media/image88.png
    :width: 5.27358in
    :height: 2.42607in
+   :align: center
+|
 
 Sau đó chọn .apk
 
 .. image:: ../../media/image89.png
    :width: 1.28159in
    :height: 0.7901in
+   :align: center
+|
 
 Sau khi xong sẽ có bảng thông báo hiện ra
 
 .. image:: ../../media/image90.png
    :width: 4.84443in
    :height: 3.61509in
+   :align: center
+|
 
 Chúng ta có thể tải file để chia sẻ cho các thiết bị di động khác hoặc có thể dùng mã QR để chia sẻ app mà chúng ta mới tạo xong.
 

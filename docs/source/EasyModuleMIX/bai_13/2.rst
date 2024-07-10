@@ -2,17 +2,11 @@
 =========
 
 -  Điện áp: 5V DC
-
 -  Dòng hoạt động: < 2mA
-
 -  Mức cao: 5V
-
 -  Mức thấp: 0V
-
 -  Góc tối đa: 15 độ
-
 -  Khoảng cách: 2cm – 450cm (4.5m)
-
 -  Độ chính xác: 3mm
 
 .. 

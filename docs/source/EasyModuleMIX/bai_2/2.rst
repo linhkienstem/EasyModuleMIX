@@ -7,50 +7,42 @@
    :width: 4.07292in
    :height: 3.62734in
    :align: center
+|
 
 **2.2 Vùng lệnh**
 
-Bao gồm các nút lệnh menu (File, Edit, Sketch, Tools, Help). Phía dưới
-là các icon cho phép sử dụng nhanh các chức năng thường dùng của IDE.
+Bao gồm các nút lệnh menu (File, Edit, Sketch, Tools, Help). Phía dưới là các icon cho phép sử dụng nhanh các chức năng thường dùng của IDE.
 
 .. image:: ../media/image13.jpeg
    :width: 4.42778in
    :height: 3.0545in
    :align: center
+|
 
 **2.3 Vùng viết chương trình**
 
-Bạn sẽ viết các đoạn mã của mình tại đây. Tên chương trình của bạn được
-hiển thị ngay dưới dãy các Icon, ở đây nó tên là “Blink”. Để ý rằng phía
-sau tên chương trình có một dấu “§”. Điều đó có nghĩa là đoạn chương
-trình của bạn chưa được lưu lại.
+Bạn sẽ viết các đoạn mã của mình tại đây. Tên chương trình của bạn được hiển thị ngay dưới dãy các Icon, ở đây nó tên là “Blink”. Để ý rằng phía sau tên chương trình có một dấu “§”. Điều đó có nghĩa là đoạn chương trình của bạn chưa được lưu lại.
 
 **2.4 Vùng thông báo (debug)**
 
-Những thông báo từ IDE sẽ được hiển thị tại đây. Để ý rằng góc dưới cùng
-bên phải hiển thị loại board Arduino và cổng COM được sử dụng. Luôn chú
-ý tới mục này bởi nếu chọn sai loại board hoặc cổng COM, bạn sẽ không
-thể upload được code của mình.
+Những thông báo từ IDE sẽ được hiển thị tại đây. Để ý rằng góc dưới cùng bên phải hiển thị loại board Arduino và cổng COM được sử dụng. Luôn chú ý tới mục này bởi nếu chọn sai loại board hoặc cổng COM, bạn sẽ không thể upload được code của mình.
 
 .. image:: ../media/image14.jpeg
    :width: 4.80208in
    :height: 1.28517in
    :align: center
+|
 
-Bạn có thể tìm thấy một vài hướng dẫn khắc phục các lỗi thường gặp khi
-lập trình Arduino tại Lỗi của Arduino? Và các lỗi thường gặp khi lập
-trình Arduino
+Bạn có thể tìm thấy một vài hướng dẫn khắc phục các lỗi thường gặp khi lập trình Arduino tại Lỗi của Arduino? Và các lỗi thường gặp khi lập trình Arduino
 
 **2.5 Một số lưu ý**
 
-Khi lập trình, các bạn cần chọn port (cổng kết nối khi gắn board vào) và
-board (tên board mà bạn sử dụng). Giả sử, bạn đang dùng mạch Arduino
-Uno, và khi gắn board này vào máy tính bằng cáp USB nó được nhận là COM4
-chỉnh như thế này là có thể lập trình được.
+Khi lập trình, các bạn cần chọn port (cổng kết nối khi gắn board vào) và board (tên board mà bạn sử dụng). Giả sử, bạn đang dùng mạch Arduino Uno, và khi gắn board này vào máy tính bằng cáp USB nó được nhận là COM4 chỉnh như thế này là có thể lập trình được.
 
 .. image:: ../media/image15.jpeg
    :width: 3.57512in
    :height: 3.10417in
    :align: center
+|
 
 .. 
