@@ -2,11 +2,13 @@
 =========
 
 A. **Thông Tin Chung**
+   
    Tên sản phẩm: EASY MODULE MIX FOR ARDUINO NANO
    Mô tả: Bộ kit đa chức năng bao gồm nhiều module cảm biến và điều khiển, được thiết kế để sử dụng với Arduino Nano.
    Khả năng mở rộng: Có thể kết nối và tương tác với nhiều loại cảm biến và module khác nhau.
 
 B. **Arduino Nano**
+   
    -  Vi điều khiển: ATmega328P
    -  Điện áp hoạt động: 5V
    -  Điện áp vào (khuyến nghị): 7-12V
@@ -20,6 +22,7 @@ B. **Arduino Nano**
    -  Kết nối USB: Mini USB
 
 C. **Các Module Cảm Biến và Điều Khiển**
+   
    LED Indicator Module:
    -  Điện áp hoạt động: 5V
    -  Tích hợp LED màu đỏ, xanh lá, xanh dương, và vàng
