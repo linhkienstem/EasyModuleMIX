@@ -1,5 +1,5 @@
 1. **Màn hình LCD 1602**
-===
+=========
 
 Màn hình LCD 16×2 là một loại màn hình ký tự thông dụng trong các dự án
 điện tử. Nó có khả năng hiển thị 16 cột và 2 hàng của các ký tự.
@@ -30,3 +30,5 @@ khác.
 
 -  LCD 1602 có thể sử dụng ở chế độ 4 bit hoặc 8 bit tùy theo ứng dụng
    ta đang làm.
+
+.. 

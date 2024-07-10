@@ -1,5 +1,5 @@
 2. **Sơ đồ kết nối**
-===
+=========
 
 -  **Bluetooth**
 
@@ -34,4 +34,6 @@
 .. image:: ../media/image96.png
    :width: 6.48958in
    :height: 3.41667in
-   
+
+
+.. 

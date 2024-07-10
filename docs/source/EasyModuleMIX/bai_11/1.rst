@@ -1,5 +1,5 @@
 1. **Cảm biến lửa**
-===
+=========
 
 Cảm biến phát hiện lửa thường được sử dụng trong hệ thông báo cháy. Tầm
 phát hiện trong khoảng 80cm, góc quét là 60 độ. Có thể phát hiện lửa tốt
@@ -10,3 +10,5 @@ so sánh để tạo mức tín hiệu. Ta có thể chỉnh độ nhạy bằng
    :alt: Cảm Biến Phát Hiện Lửa ( ngõ ra Digital )
    :width: 3.53125in
    :height: 3.0417in
+
+.. 

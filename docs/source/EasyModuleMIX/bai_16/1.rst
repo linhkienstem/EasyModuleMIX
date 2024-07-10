@@ -1,5 +1,5 @@
 1. **Tổng quan**
-===
+=========
 
 Mục đích của dự án: Mục đích của dự án này là tạo ra một hệ thống có khả năng đo khoảng cách trong môi trường và hiển thị giá trị này lên màn hình LCD tích hợp giao tiếp I2C. Hệ thống này có thể được sử dụng trong nhiều ứng dụng như robot tránh vật cản, giám sát khoảng cách trong nhà kho, và các ứng dụng khác yêu cầu đo khoảng cách chính xác.
 
@@ -10,3 +10,5 @@ Mô tả hệ thống:
 -  Vi điều khiển: Xử lý dữ liệu từ cảm biến và điều khiển màn hình LCD.
 
 -  Màn hình LCD tích hợp I2C: Hiển thị giá trị khoảng cách.
+
+.. 

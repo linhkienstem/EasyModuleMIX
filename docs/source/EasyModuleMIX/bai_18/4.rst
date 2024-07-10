@@ -1,5 +1,5 @@
 4. **Hướng dẫn lập trình**
-===
+=========
 
 ..
 
@@ -62,3 +62,6 @@ Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa s�
 .. image:: ../media/image68.png
    :width: 6.5in
    :height: 3.41458in
+
+
+.. 

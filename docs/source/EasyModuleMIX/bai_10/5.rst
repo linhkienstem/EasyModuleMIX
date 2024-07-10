@@ -1,5 +1,5 @@
 5. **Báo động khi giá trị khí gas vượt ngưỡng cho phép**
-===
+=========
 
 -  Sơ đồ kết nối:
 

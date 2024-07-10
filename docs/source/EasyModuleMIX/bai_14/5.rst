@@ -1,5 +1,5 @@
 5. **Hướng dẫn lập trình**
-===
+=========
 
 Để lập trình hiển thị chữ trên LCD chúng ta cần cài thư viện
 LiquidCrystal_I2C.h, thao tác như sau: Sketch => Include Library =>
@@ -53,3 +53,5 @@ Sau đó kéo xuống tìm thư viện LiquidCrystal_I2C và ấn Install.
    hình LCD
 
    }
+
+.. 

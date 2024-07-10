@@ -1,5 +1,5 @@
 1. **Cảm biến siêu âm HC-SR04**
-===
+=========
 
 Cảm biến khoảng cách siêu âm HC-SR04 được sử dụng rất phổ biến để xác
 định khoảng cách. Cảm biến sử dụng sóng siêu âm và có thể đo khoảng cách
@@ -23,3 +23,5 @@ Nguyên lý hoạt động:
 -  Tốc độ của âm thanh trong không khí là 340 m/s (hằng số vật lý),
    tương đương với 29,412 microSeconds/cm (106 / (340*100)). Khi đã tính
    được thời gian, ta sẽ chia cho 29,412 để nhận được khoảng cách.
+
+.. 

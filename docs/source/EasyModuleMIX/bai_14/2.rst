@@ -1,5 +1,5 @@
 2. **Module I2C Arduino**
-===
+=========
 
 LCD có quá nhiều nhiều chân gây khó khăn trong quá trình đấu nối và
 chiếm dụng nhiều chân trên vi điều khiển. Thay vì phải mất 6 chân vi
@@ -22,3 +22,5 @@ với hầu hết các vi điều khiển hiện nay.
 -  Tích hợp Jump chốt để cung cấp đèn cho LCD hoặc ngắt.
 
 -  Tích hợp biến trở xoay điều chỉnh độ tương phản cho LCD.
+
+.. 

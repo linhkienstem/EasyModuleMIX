@@ -1,5 +1,5 @@
 3. **Hướng dẫn lập trình**
-===
+=========
 
 Hướng dẫn kết nối:
 
@@ -24,3 +24,5 @@ void loop()
 Serial.println(digitalRead(3));
 
 }
+
+.. 

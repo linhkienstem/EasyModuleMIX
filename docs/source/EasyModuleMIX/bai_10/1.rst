@@ -1,5 +1,5 @@
 1. **Cảm biến khí gas**
-===
+=========
 
 Cảm biến khí gas sử dụng phần tử SnO2 có độ dẫn điện thấp hơn trong
 không khí sạch, khi khí dễ cháy tồn tại, cảm biến có độ dẫn điện cao

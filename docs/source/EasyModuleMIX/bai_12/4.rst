@@ -1,5 +1,5 @@
 4. **Kích hoạt còi báo khi phát hiện chuyển động**
-===
+=========
 
 -  Dưới đây là một chương trình mẫu kích hoạt còi báo khi phát hiện
    chuyển động.
@@ -48,3 +48,5 @@
    }
 
    }
+
+.. 

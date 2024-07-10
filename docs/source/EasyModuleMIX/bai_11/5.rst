@@ -1,5 +1,5 @@
 5. **Kích hoạt còi báo khi phát hiện lửa**
-===
+=========
 
 -  Sơ đồ kết nối
 
@@ -68,3 +68,5 @@ Còi 5V
    delay(100); // Đợi 100ms trước khi đọc lại giá trị
 
    }
+
+.. 

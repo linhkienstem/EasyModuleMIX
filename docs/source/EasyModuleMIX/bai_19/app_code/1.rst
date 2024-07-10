@@ -1,5 +1,5 @@
 1. **Thiết kế giao diện**
-===
+=========
 
 Đầu tiên, chúng ta truy cập vào đường link http://appinventor.mit.edu sau đó chọn Create Apps! và đăng nhập bằng gmail để tiếp tục.
 
@@ -108,3 +108,6 @@ Tương tự với các nút còn lại chúng ta được giao diện phần ap
 .. image:: ../media/image84.png
    :width: 5.04641in
    :height: 2.35499in
+
+
+.. 

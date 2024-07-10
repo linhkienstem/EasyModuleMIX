@@ -1,5 +1,5 @@
 3. **Hướng dẫn lập trình**
-===
+=========
 
 Kết nối phần cứng:
 
@@ -41,23 +41,22 @@ Lập trình:
 
    {
 
-   Serial.begin(9600);
+      Serial.begin(9600);
 
-   hc06.begin(9600); // đặt baudrate giao tiếp hc06
+      hc06.begin(9600); // đặt baudrate giao tiếp hc06
 
    }
 
    void loop() {
 
    if(Serial.available())
-
    {
 
-   ch = Serial.read();
+      ch = Serial.read();
 
-   hc06.write(ch);
+      hc06.write(ch);
 
-   Serial.write(ch);
+      Serial.write(ch);
 
    }
 
@@ -65,7 +64,7 @@ Lập trình:
 
    {
 
-   Serial.write(hc06.read());
+      Serial.write(hc06.read());
 
    }
 
@@ -84,3 +83,5 @@ Thông báo OKsetname sẽ được hiện ra:
 .. image:: ../media/image95.png
    :width: 4.52368in
    :height: 3.13812in
+
+.. 

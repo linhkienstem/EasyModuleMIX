@@ -1,5 +1,5 @@
 4. **Hướng dẫn lập trình**
-===
+=========
 
 -  Code hiển thị khoảng cách đo được từ cảm biến siêu âm lên Serial
 
@@ -53,3 +53,5 @@ Sau khi nạp code xong chúng ta ấn **Ctrl + Shift + M** để mở cửa s�
 .. image:: ../media/image57.png
    :width: 4.84522in
    :height: 3.35562in
+
+.. 

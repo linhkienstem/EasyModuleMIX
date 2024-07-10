@@ -16,3 +16,5 @@
 -  Độ rộng xung 0.5ms ~ 2.5ms tương ứng 0-180 độ
 
 -  Tần số 50Hz, chu kỳ 20ms
+
+.. 

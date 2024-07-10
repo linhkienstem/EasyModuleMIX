@@ -1,5 +1,5 @@
 2. **Lập trình chức năng**
-===
+=========
 
 Tiếp theo chúng ta sẽ code chức năng cho các nút tương ứng.
 
@@ -29,3 +29,6 @@ bluetooth hiện ra và chúng ta chỉ việc chọn vào bluetooth mà chúng 
    :height: 1.51123in
 
 Click: có nghĩa quá trình ấn vào một button và lấy tay lên khi chúng ta ấn nút thì sẽ thực hiện lệnh đằng sau đó.
+
+
+.. 

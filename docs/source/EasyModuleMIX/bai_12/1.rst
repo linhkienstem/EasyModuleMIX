@@ -1,5 +1,5 @@
 1. **Cảm biến chuyển động**
-===
+=========
 
 PIR là chữ viết tắt của Passive InfraRed sensor (PIR sensor), tức là bộ
 cảm biến thụ động dùng nguồn kích thích là tia hồng ngoại. Tia hồng
@@ -20,3 +20,5 @@ khác, như con người con vật…
    Sensor 3 Pins $0.56 \| Globalsources.com
    :width: 2.44293in
    :height: 3.53125in
+
+.. 

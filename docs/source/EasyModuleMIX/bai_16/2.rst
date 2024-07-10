@@ -1,5 +1,5 @@
 2. **Ứng dụng và mở rộng**
-===
+=========
 
 Ứng dụng thực tiễn:
 -  Robot tránh vật cản: Sử dụng cảm biến khoảng cách để phát hiện và tránh vật cản.
@@ -11,3 +11,5 @@
 -  Kết nối nhiều cảm biến: Giám sát nhiều vị trí khác nhau trong cùng một hệ thống.
 -  Sử dụng màn hình lớn hơn: Hiển thị nhiều thông tin hơn.
 -  Tích hợp IoT: Gửi dữ liệu lên cloud để giám sát từ xa và lưu trữ lịch sử.
+
+.. 

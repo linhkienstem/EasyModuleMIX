@@ -1,5 +1,5 @@
 2. **Ứng dụng và mở rộng**
-===
+=========
 
 Ứng dụng thực tiễn:
 
@@ -16,3 +16,5 @@
 -  Sử dụng màn hình lớn hơn: Hiển thị nhiều thông tin hơn.
 
 -  Tích hợp IoT: Gửi dữ liệu lên cloud để giám sát từ xa và lưu trữ lịch sử.
+
+.. 
