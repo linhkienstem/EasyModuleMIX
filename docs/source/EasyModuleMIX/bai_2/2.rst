@@ -6,6 +6,7 @@
 .. image:: ../media/image12.jpeg
    :width: 4.07292in
    :height: 3.62734in
+   :align: center
 
 **2.2 Vùng lệnh**
 
@@ -15,6 +16,7 @@ là các icon cho phép sử dụng nhanh các chức năng thường dùng củ
 .. image:: ../media/image13.jpeg
    :width: 4.42778in
    :height: 3.0545in
+   :align: center
 
 **2.3 Vùng viết chương trình**
 
@@ -33,6 +35,7 @@ thể upload được code của mình.
 .. image:: ../media/image14.jpeg
    :width: 4.80208in
    :height: 1.28517in
+   :align: center
 
 Bạn có thể tìm thấy một vài hướng dẫn khắc phục các lỗi thường gặp khi
 lập trình Arduino tại Lỗi của Arduino? Và các lỗi thường gặp khi lập
@@ -48,5 +51,6 @@ chỉnh như thế này là có thể lập trình được.
 .. image:: ../media/image15.jpeg
    :width: 3.57512in
    :height: 3.10417in
+   :align: center
 
 .. 

@@ -12,6 +12,7 @@ xanh lá, xanh dương, tím, cam, hồng,....
 .. image:: ../media/image16.jpeg
    :width: 5.58333in
    :height: 1.95775in
+   :align: center
 
 : Các loại LED
 
@@ -69,6 +70,7 @@ thể nối sang một trong các chân LED còn lại từ 2 đến 5)
 .. image:: ../media/image17.png
    :width: 6.5in
    :height: 3.94236in
+   :align: center
 
     1.4.3. **Hướng dẫn lập trình**
 

@@ -74,23 +74,27 @@ Driver Installation Wizard” hiện ra, các bạn chọn Next để tiếp t�
 .. image:: ../media/image8.jpeg
    :width: 4.68684in
    :height: 3.54167in
+   :align: center
 
 Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
 
 .. image:: ../media/image9.jpeg
    :width: 4.59816in
    :height: 3.52083in
+   :align: center
 
 Đợi khoảng 10 giây trong lúc quá trình cài đặt diễn ra …
 
 .. image:: ../media/image10.jpeg
    :width: 4.35981in
    :height: 3.35417in
+   :align: center
 
 Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
 
 .. image:: ../media/image11.jpeg
    :width: 5.10714in
    :height: 3.89583in
+   :align: center
 
 .. 

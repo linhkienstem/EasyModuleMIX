@@ -1,46 +1,31 @@
 2. **Còi 5V**
 =====
 
-   2.1. **Giới thiệu**
-
+2.1. **Giới thiệu**
 Còi 5V là linh kiện thường được dùng trong các mạch điện tử với mục đích
-tạo
-
-ra tín hiệu âm thanh
+tạo ra tín hiệu âm thanh
 
 .. image:: ../media/image18.jpeg
    :alt: còi-chíp
    :width: 4.79925in
    :height: 2.60417in
+   :align: center
 
-    2.2. **Thông số kỹ thuật**
+2.2. **Thông số kỹ thuật**
+    -  Điện áp sử dụng: 3-12VDC
+    -  Dòng tiêu thụ: <25mA
+    -  Tần số âm thanh: 2300H z ± 500
+    -  Âm thanh đầu ra: Bíp bíp
+    -  Biên độ âm thanh: > 80dB
+    -  Nhiệt độ hoạt động: -20 đến 70 độ C
+    -  Màu sắc: Đen
+    -  Kích thước của còi chip 9.5x12mm: 9.5x12mm
+    -  2 cực: Cực âm, cực dương
+    -  Chân dài: cực dương
+    -  Chân ngắn: Cực âm
 
--  Điện áp sử dụng: 3-12VDC
-
--  Dòng tiêu thụ: <25mA
-
--  tần số âm thanh: 2300H z ± 500
-
--  Âm thanh đầu ra: Bíp bíp
-
--  Biên độ âm thanh: > 80dB
-
--  Nhiệt độ hoạt động: -20 đến 70 độ C
-
--  Màu sắc: Đen
-
--  Kích thước của còi chip 9.5x12mm: 9.5x12mm
-
--  2 cực: Cực âm, cực dương
-
--  Chân dài: cực dương
-
--  Chân ngắn: Cực âm
-
-    2.3. **Lập trình cơ bản với còi 5V**
-
-    2.3.1 **Sơ đồ kết nối**
-
+2.3. **Lập trình cơ bản với còi 5V**
+2.3.1 **Sơ đồ kết nối**
 Dùng dây jump cái cái để kết nối chân S của D8 với chân BUZZ
 
 +-----------------------------------+-----------------------------------+
@@ -52,6 +37,8 @@ Dùng dây jump cái cái để kết nối chân S của D8 với chân BUZZ
 .. image:: ../media/image19.png
    :width: 6.5in
    :height: 3.94236in
+   :align: center
+   :align: center
 
     2.3.2 **Hướng dẫn lâp trình**
 

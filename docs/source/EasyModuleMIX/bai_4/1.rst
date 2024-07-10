@@ -7,3 +7,6 @@ chẳng hạn như cái nút trong bàn phím của bạn.
 .. image:: ../media/image20.jpeg
    :width: 0.7697in
    :height: 0.82425in
+   :align: center
+
+.. 

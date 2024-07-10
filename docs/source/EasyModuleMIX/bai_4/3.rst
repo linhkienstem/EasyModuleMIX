@@ -13,3 +13,5 @@ nối chân D2 với một trong các chân còn lại từ 2 - 5)
 .. image:: ../media/image21.png
    :width: 5.77065in
    :height: 3.5in
+
+.. 
