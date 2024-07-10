@@ -8,7 +8,7 @@ Linh kiện STEM xin chào tất cả các bạn!
    :maxdepth: 1
    :caption: Cửa hàng
 
-   store/store.rst
+   https://www.stemvn.vn/
 
 .. toctree::
    :maxdepth: 2
