@@ -5,19 +5,19 @@
 
 Ở phần thanh công cụ ngang trên cùng, chúng ta sẽ chọn **Build**
 
-.. image:: ../media/image88.png
+.. image:: ../../media/image88.png
    :width: 5.27358in
    :height: 2.42607in
 
 Sau đó chọn .apk
 
-.. image:: ../media/image89.png
+.. image:: ../../media/image89.png
    :width: 1.28159in
    :height: 0.7901in
 
 Sau khi xong sẽ có bảng thông báo hiện ra
 
-.. image:: ../media/image90.png
+.. image:: ../../media/image90.png
    :width: 4.84443in
    :height: 3.61509in
 
