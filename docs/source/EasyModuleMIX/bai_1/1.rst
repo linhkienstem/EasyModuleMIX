@@ -7,6 +7,7 @@ Easy Module Mix for Arduino Nano là một tập hợp các mô-đun linh hoạt
    :width: 6.5in
    :height: 3.94306in
    :align: center
+|
 
 Các mô-đun này đi kèm với các đầu nối hoặc đầu cắm được tiêu chuẩn hóa, giúp chúng dễ dàng kết nối với Arduino Nano mà không cần hàn hoặc nối dây phức tạp. Một số mô-đun phổ biến được tìm thấy trong Easy Module Mix có thể bao gồm cảm biến nhiệt độ và độ ẩm, cảm biến chuyển động, cảm biến ánh sáng, màn hình LED, động cơ, v.v.
 

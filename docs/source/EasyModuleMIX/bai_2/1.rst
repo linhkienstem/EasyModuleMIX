@@ -1,20 +1,12 @@
 1. **Kết nối EASY MODULE MIX FOR ARDUINO NANO với máy tính, cài đặt phần mềm Arduino IDE.**
 ========
 
-Để lập trình được cho các board EASY MODULE MIX FOR ARDUINO NANO, các
-bạn cần phải có một công cụ gọi là Intergrated Development Environment
-(IDE). Công cụ này được đội ngũ kĩ sư của Arduino phát triển và có thể
-chạy trên Windows , MAC OS X và Linux. Ở đây mình sẽ hướng dẫn các bạn
-cài đặt nó trên Windows. Các bạn cũng làm tương tự các bước này cho các
-nền tảng khác
+Để lập trình được cho các board EASY MODULE MIX FOR ARDUINO NANO, các bạn cần phải có một công cụ gọi là Intergrated Development Environment (IDE). Công cụ này được đội ngũ kĩ sư của Arduino phát triển và có thể chạy trên Windows , MAC OS X và Linux. Ở đây mình sẽ hướng dẫn các bạn cài đặt nó trên Windows. Các bạn cũng làm tương tự các bước này cho các nền tảng khác.
 
 **1.1 Cài đặt Java Runtime Environment (JRE)**
 
-Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước
-Arduino IDE.
-
+Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước Arduino IDE.
 Link tải: *https://oracle.com/java/technologies/javase/upgrade.html*
-
 Chú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình
 trạng không chạy được Arduino IDE.
 
@@ -25,33 +17,32 @@ trạng không chạy được Arduino IDE.
    :alt: Bản JRE mới nhất là 7u80
    :width: 5.52708in
    :height: 3.32274in
+   :align: center
 
 Bản JRE mới nhất là 7u80
 
 **1.2 Cài đặt Arduino IDE**
 
--  Bước 1: Truy cập địa chỉ https://www.arduino.cc/en/software Đây là
-   nơi lưu trữ cũng như cập nhật các bản IDE của Arduino. Bấm vào mục
-   Windows ZIP file.
+-  Bước 1: Truy cập địa chỉ https://www.arduino.cc/en/software Đây là nơi lưu trữ cũng như cập nhật các bản IDE của Arduino. Bấm vào mục Windows ZIP file.
 
 .. image:: ../media/image4.png
    :width: 6.5in
    :height: 3.39167in
+   :align: center
 
-Bạn sẽ được chuyển đến một trang mời quyền góp tiền để phát triển phần
-mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
+Bạn sẽ được chuyển đến một trang mời quyền góp tiền để phát triển phần mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
 
 .. image:: ../media/image5.png
    :width: 6.5in
    :height: 2.99514in
+   :align: center
 
--  Bước 2: Sau khi download xong, các bạn bấm chuột phải vào file vừa
-   download arduino-1.8.19-windows và chọn “Extract to
-   arduino-1.8.19-windows ” để giải nén.
+-  Bước 2: Sau khi download xong, các bạn bấm chuột phải vào file vừa download arduino-1.8.19-windows và chọn “Extract to arduino-1.8.19-windows ” để giải nén.
 
 .. image:: ../media/image6.png
    :width: 5.92244in
    :height: 2.70843in
+   :align: center
 
 -  Bước 3: Copy thư mục arduino-1.8.19-windows vừa giải nén đến nơi lưu
    trữ.
