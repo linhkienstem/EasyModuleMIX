@@ -1,6 +1,8 @@
+**Easy Module MIX**
+========
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Easy Module MIX
+   :maxdepth: 1
 
    EasyModuleMIX/bai_1.rst
    EasyModuleMIX/bai_2.rst
