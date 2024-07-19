@@ -63,7 +63,7 @@ html_context  = {
    'github_version' : 'master' 
 }
 
-html_static_path = ['EMM/_static']
+html_static_path = ['_static']
 
 html_css_files = [
     'custom.css'
