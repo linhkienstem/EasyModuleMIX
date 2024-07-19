@@ -28,11 +28,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme' # pip3 install sphinx_rtd_theme
 
-html_logo = 'EMM/images/white_logo.png'
+html_logo = 'images/white_logo.png'
 
-html_style = 'EMM/css/stemvn.css'
+html_style = 'css/stemvn.css'
 
-html_favicon = 'EMM/images/favicon.ico'
+html_favicon = 'images/favicon.ico'
 
 html_theme_options = {
     #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
