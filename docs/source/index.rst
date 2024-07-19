@@ -11,7 +11,7 @@ Linh kiện STEM xin chào tất cả các bạn!
    Truy cập cửa hàng <https://www.stemvn.vn/>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: TÀI LIỆU
 
    EMM/emm.rst
