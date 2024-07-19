@@ -41,7 +41,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     # 'style_external_links': True,
     # 'vcs_pageview_mode': '',
-    'style_nav_header_background': '#ff7337',
+    # 'style_nav_header_background': '#ff7337',
     # Toc options
 
     'collapse_navigation': True,
