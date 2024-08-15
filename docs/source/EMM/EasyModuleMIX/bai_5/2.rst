@@ -1,9 +1,3 @@
-2. **Ứng dụng**
-========
 
--  Bảng thiết thị
--  Hiển thị chung
--  Hiển thị tỷ giá
--  Hiển thị đồng hồ
 
 .. 

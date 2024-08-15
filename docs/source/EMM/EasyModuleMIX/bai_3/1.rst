@@ -3,7 +3,7 @@
 
 1.1. **Đèn LED là gì ?**
 
-Đèn LED thực chất cũng chỉ là đèn, nhưng khác với đèn dây tóc (trong các loại đèn pin cũ) thì đèn LED có phân cực âm (chân ngắn) và dương (chân dài). Nghĩa là bạn cần cấp điện vào cực dương và nối cực âm vào cực âm của nguồn. Đèn LED cũng có nhiều màu sắc, ví dụ như: trắng, đỏ, vàng, xanh lá, xanh dương, tím, cam, hồng,....
+LED (viết tắt của light-emitting diode, có nghĩa là diode phát sáng hoặc diode phát quang) là các diode có khả năng phát ra ánh sáng hay tia hồng ngoại, tử ngoại. Cũng giống như diode, LED được cấu tạo từ một khối bán dẫn loại p ghép với một khối bán dẫn loại n.
 
 .. image:: ../media/image16.jpeg
    :width: 5.58333in

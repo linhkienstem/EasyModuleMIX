@@ -1,9 +1,0 @@
-2. **Thông số kỹ thuật**
-========
-
--  Số chân: 4 chân
--  Kiểu chân: chân cắm
--  Chất liệu: nhựa, kim loại.
-
-
-.. 
