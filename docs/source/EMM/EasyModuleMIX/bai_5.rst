@@ -7,7 +7,7 @@
 
    Các đoạn này thường được đánh dấu từ "A" đến "G", mỗi đoạn tương ứng với một phần của chữ số. Khi bật hoặc tắt các đoạn cụ thể, màn hình có thể hiển thị một loạt các số và ký tự khác nhau. Đây là một thiết bị cơ bản nhưng rất phổ biến trong các ứng dụng điện tử như đồng hồ kỹ thuật số, máy tính cầm tay và các bảng điều khiển.
 
-   .. image:: ../media/image24.png
+   .. image:: ./media/image24.png
       :width: 4.76594in
       :height: 4.43213in
       :align: center
@@ -47,7 +47,7 @@
       +  Chân 11 : Cathode số 4/Anode chung
       +  Chân 12 : Đoạn F
 
-   .. image:: ../media/image24.png
+   .. image:: ./media/image24.png
       :width: 4.76594in
       :height: 4.43213in
       :align: center
@@ -65,7 +65,7 @@
    | DIN                              | D2                                |
    +----------------------------------+-----------------------------------+
 
-   .. image:: ../media/image25.png
+   .. image:: ./media/image25.png
       :width: 6.5in
       :height: 3.94236in
       :align: center
@@ -74,6 +74,7 @@
 5. **Hướng dẫn lập trình**
 
 .. code-block:: cpp
+   
    // Bao gồm thư viện TM1637Display để điều khiển màn hình 7 đoạn
    #include <TM1637Display.h>
 
