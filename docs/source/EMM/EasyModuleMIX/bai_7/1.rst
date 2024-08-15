@@ -1,21 +1,23 @@
 1. **Biến trở**
 ========
 
-Biến trở chỉ đơn giản chỉ là một điện trở có thể thay đổi được trị số. Mạch Arduino không đọc trực tiếp điện trở này mà đọc gián tiếp qua điện áp mà biến trở gây ra.
+   Biến trở chỉ đơn giản chỉ là một điện trở có thể thay đổi được trị số. Mạch Arduino không đọc trực tiếp điện trở này mà đọc gián tiếp qua điện áp mà biến trở gây ra.
 
-.. image:: ../media/image27.jpeg
-   :alt: Biến trở đứng RV09 0932 chiết áp 1k 2k 5k 10k 20k 50k 100k triết áp trục đứng 12.5mm
-   :width: 3.875in
-   :height: 3.05174in
-   :align: center
-|
+      .. image:: ../media/image27.jpeg
+         :alt: Biến trở đứng RV09 0932 chiết áp 1k 2k 5k 10k 20k 50k 100k triết áp trục đứng 12.5mm
+         :width: 3.875in
+         :height: 3.05174in
+         :align: center
+      |
 
-Cấu tạo của biến trở:
+   Cấu tạo của biến trở:
 
-.. image:: ../media/image28.gif
-   :width: 3.28119in
-   :height: 2.36534in
-   :align: center
-|
+      .. image:: ../media/image28.gif
+         :width: 3.28119in
+         :height: 2.36534in
+         :align: center
+      |
 
-Phần màu vàng là một lớp điện trở. Cây kim màu xanh được đè chặt xuống phần điện trở này. Giả sử có dòng điện đi từ 1 đến 3 thì nó sẽ phải qua phần màu vàng (được tô đỏ) và đó chính là điện trở hiện tại của biến trở. Bạn chỉ việc vặn cây kim để tăng giảm độ dài của vùng màu đỏ, qua đó tăng giảm giá trị điện trở.
+   Phần màu vàng là một lớp điện trở. Cây kim màu xanh được đè chặt xuống phần điện trở này. Giả sử có dòng điện đi từ 1 đến 3 thì nó sẽ phải qua phần màu vàng (được tô đỏ) và đó chính là điện trở hiện tại của biến trở. Bạn chỉ việc vặn cây kim để tăng giảm độ dài của vùng màu đỏ, qua đó tăng giảm giá trị điện trở.
+
+..

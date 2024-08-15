@@ -1,12 +1,12 @@
 2. **Thông số kỹ thuật**
 ========
 
--  Công suất: Thường là 0.1W đến 0.5W
--  Điện áp hoạt động tối đa: Khoảng 50V DC
--  Độ chính xác: ±20% hoặc ±10% tùy thuộc vào model
--  Góc quay: Thường là 300° ± 5°
--  Số vòng quay: 1 vòng
--  Kiểu trục: Trục dẹt hoặc trục răng cưa (tùy model)
--  Kích thước: Đường kính khoảng 9mm
--  Nhiệt độ hoạt động: Thường từ -10°C đến +70°C
--  Chân kết nối: 3 chân (2 chân cho điện trở và 1 chân cho cần điều chỉnh)
+    -  Công suất: Thường là 0.1W đến 0.5W
+    -  Điện áp hoạt động tối đa: Khoảng 50V DC
+    -  Độ chính xác: ±20% hoặc ±10% tùy thuộc vào model
+    -  Góc quay: Thường là 300° ± 5°
+    -  Số vòng quay: 1 vòng
+    -  Kiểu trục: Trục dẹt hoặc trục răng cưa (tùy model)
+    -  Kích thước: Đường kính khoảng 9mm
+    -  Nhiệt độ hoạt động: Thường từ -10°C đến +70°C
+    -  Chân kết nối: 3 chân (2 chân cho điện trở và 1 chân cho cần điều chỉnh)

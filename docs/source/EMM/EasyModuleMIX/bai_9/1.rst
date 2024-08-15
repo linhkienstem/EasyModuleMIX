@@ -1,15 +1,16 @@
 1. **Cảm biến ánh sáng**
 ========
 
-Cảm biến cường độ ánh sáng quang trở rất nhạy cảm với cường độ ánh sáng môi trường thường được sử dụng để phát hiện độ sáng môi trường xung quanh và cường độ ánh sáng. Khi cường độ ánh sáng môi trường xung quanh bên ngoài vượt quá một ngưỡng quy định, ngõ ra của module D0 là mức logic thấp. Ngoài ra còn có ngõ ra Analog ở chân A0 để xử lí mức độ ánh sáng.
-Cảm biến cường độ ánh sáng phát hiện cường độ ánh sáng, sử dụng bộ cảm biến photoresistor loại nhạy cảm, cho tín hiệu ổn định, rõ ràng và chính xác hơn so với quang trở độ nhạy có thể tùy chỉnh. Thiết kế đơn giản nhưng hiệu quả và độ tin cậy cao, độ nhiễu thấp do được thiết kế mạch lọc tín hiệu trước khi so sánh với ngưỡng.
-Thân thiện với người dùng hơn khi hổ trợ cả 2 dạng tín hiệu ngõ ra dạng số (tín hiệu 0 1) và dạng analog.
 
-.. image:: ../media/image38.jpeg
-   :alt: Cảm biến cường độ ánh sáng quang trở
-   :width: 2.70694in
-   :height: 2.41271in
-   :align: center
-|
+   Cảm biến cường độ ánh sáng quang trở rất nhạy cảm với cường độ ánh sáng môi trường thường được sử dụng để phát hiện độ sáng môi trường xung quanh và cường độ ánh sáng. Khi cường độ ánh sáng môi trường xung quanh bên ngoài vượt quá một ngưỡng quy định, ngõ ra của module D0 là mức logic thấp. Ngoài ra còn có ngõ ra Analog ở chân A0 để xử lí mức độ ánh sáng.
+   Cảm biến cường độ ánh sáng phát hiện cường độ ánh sáng, sử dụng bộ cảm biến photoresistor loại nhạy cảm, cho tín hiệu ổn định, rõ ràng và chính xác hơn so với quang trở độ nhạy có thể tùy chỉnh. Thiết kế đơn giản nhưng hiệu quả và độ tin cậy cao, độ nhiễu thấp do được thiết kế mạch lọc tín hiệu trước khi so sánh với ngưỡng.
+   Thân thiện với người dùng hơn khi hổ trợ cả 2 dạng tín hiệu ngõ ra dạng số (tín hiệu 0 1) và dạng analog.
+
+   .. image:: ../media/image38.jpeg
+      :alt: Cảm biến cường độ ánh sáng quang trở
+      :width: 2.70694in
+      :height: 2.41271in
+      :align: center
+   |
 
 .. 

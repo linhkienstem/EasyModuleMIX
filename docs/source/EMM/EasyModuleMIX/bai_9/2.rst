@@ -1,10 +1,9 @@
 2. **Thông số kỹ thuật**
 ========
-
--  Điện áp hoạt động 3.3 – 5 V
--  Kết nối 4 chân với 2 chân cấp nguồn (VCC và GND) và 2 chân tín hiệu ngõ ra (AO và DO).
--  Hỗ trợ cả 2 dạng tín hiệu ra Analog và TTL. Ngõ ra Analog 0 – 5V tỷ lệ thuận với cường độ ánh sáng, ngõ TTL tích cực mức thấp.
--  Độ nhạy cao với ánh sáng được tùy chỉnh bằng biến trở .
--  Kích thước 32 x 14mm
+    -  Điện áp hoạt động 3.3 – 5 V
+    -  Kết nối 4 chân với 2 chân cấp nguồn (VCC và GND) và 2 chân tín hiệu ngõ ra (AO và DO).
+    -  Hỗ trợ cả 2 dạng tín hiệu ra Analog và TTL. Ngõ ra Analog 0 – 5V tỷ lệ thuận với cường độ ánh sáng, ngõ TTL tích cực mức thấp.
+    -  Độ nhạy cao với ánh sáng được tùy chỉnh bằng biến trở .
+    -  Kích thước 32 x 14mm
 
 .. 
