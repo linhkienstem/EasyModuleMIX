@@ -5,12 +5,12 @@
 
         Buzzer hay còn gọi là còi chíp hoặc còi xung, là thiết bị phát ra âm thanh (tiếng bíp bíp) hay dùng trong các mạch điện tử. Cấu tạo của Buzzer gồm 2 chân, chân dài là chân (+) và chân ngắn là chân (-). Trong quá trình sử dụng cần chú ý mắc đúng chân để tránh làm hỏng buzzer.
 
-        .. image:: ../media/image18.jpeg
+    .. image:: ../media/image18.jpeg
         :alt: còi-chíp
         :width: 4.79925in
         :height: 2.60417in
         :align: center
-        |
+    |
 
     2.2. **Thông số kỹ thuật**
 
@@ -38,15 +38,17 @@
             | BUZZ                              | D8                                |
             +-----------------------------------+-----------------------------------+
 
-            .. image:: ../media/image19.png
+        .. image:: ../media/image19.png
             :width: 6.5in
             :height: 3.94236in
             :align: center
             :align: center
-            |
+        |
 
         2.3.2 **Hướng dẫn lâp trình**
+
             .. code-block:: cpp
+
                 void setup() {
                     pinMode(8, OUTPUT);
                 }

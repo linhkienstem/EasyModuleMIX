@@ -6,9 +6,9 @@
         LED (viết tắt của light-emitting diode, có nghĩa là diode phát sáng hoặc diode phát quang) là các diode có khả năng phát ra ánh sáng hay tia hồng ngoại, tử ngoại. Cũng giống như diode, LED được cấu tạo từ một khối bán dẫn loại p ghép với một khối bán dẫn loại n.
 
         .. image:: ../media/image16.jpeg
-        :width: 5.58333in
-        :height: 1.95775in
-        :align: center
+            :width: 5.58333in
+            :height: 1.95775in
+            :align: center
         |
 
         Các loại LED: Thường thì LED có 2 chân, loại nhiều chân là LED nhiều màu
@@ -49,14 +49,15 @@
             +-----------------------------------+-----------------------------------+
 
             .. image:: ../media/image17.png
-            :width: 6.5in
-            :height: 3.94236in
-            :align: center
+                :width: 6.5in
+                :height: 3.94236in
+                :align: center
             |
 
         1.4.3. **Hướng dẫn lập trình**
 
         .. code-block:: cpp
+
             void setup() {
                 pinMode(6, OUTPUT);
             }
