@@ -4,7 +4,7 @@
 
 1. **Hệ thống đèn giao thông**
 
-    Việc sử dụng Arduino làm hệ thống đèn giao thông là một ứng dụng rất thú vị trong việc hỗ trợ quá trình học tập. Với Easy Module Mix for Arduino Nano, học sinh, sinh viên có thể tự thiết kế và lập trình hệ thống đèn giao thông như một dự án thực tế, giúp rèn luyện kỹ năng lập trình và kỹ năng tư duy logic. Đồng thời, việc thực hiện các thí nghiệm với hệ thống đèn giao thông cũng giúp các bạn hiểu rõ hơn về cơ chế hoạt động và quy trình điều khiển của hệ thống đèn giao thông. Ngoài ra, sử dụng Arduino còn giúp giảm thiểu chi phí và đơn giản hóa quy trình thiết kế và lắp ráp.
+   Việc sử dụng Arduino làm hệ thống đèn giao thông là một ứng dụng rất thú vị trong việc hỗ trợ quá trình học tập. Với Easy Module Mix for Arduino Nano, học sinh, sinh viên có thể tự thiết kế và lập trình hệ thống đèn giao thông như một dự án thực tế, giúp rèn luyện kỹ năng lập trình và kỹ năng tư duy logic. Đồng thời, việc thực hiện các thí nghiệm với hệ thống đèn giao thông cũng giúp các bạn hiểu rõ hơn về cơ chế hoạt động và quy trình điều khiển của hệ thống đèn giao thông. Ngoài ra, sử dụng Arduino còn giúp giảm thiểu chi phí và đơn giản hóa quy trình thiết kế và lắp ráp.
 
 2. **Sơ đồ kết nối**
 
@@ -32,7 +32,7 @@
          | LED 3                            | D5                                |
          +----------------------------------+-----------------------------------+
 
-         .. image:: ../media/image26.png
+         .. image:: ./media/image26.png
             :width: 6.5in
             :height: 3.94236in
             :align: center
