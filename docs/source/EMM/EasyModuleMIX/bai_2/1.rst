@@ -6,8 +6,8 @@
 **1.1 Cài đặt Java Runtime Environment (JRE)**
 
 Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước Arduino IDE.
-Link tải: *https://oracle.com/java/technologies/javase/upgrade.html*
-Chú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình trạng không chạy được Arduino IDE.
+\nLink tải: ``https://oracle.com/java/technologies/javase/upgrade.html``
+\nChú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình trạng không chạy được Arduino IDE.
 
 2 bản JRE phổ biến nhất là bản dành cho Windows 32bit (x86) và Windows
 64bit (x64) đã đánh dấu trong hình, chọn "Accept License Agreement".

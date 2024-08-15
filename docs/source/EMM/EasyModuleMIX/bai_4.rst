@@ -2,6 +2,7 @@
 =============
 
 1. **Button - Nút bấm**
+   
    Button là nút bấm, bạn có thể tìm thấy nó ở mọi thứ trong cuộc sống, chẳng hạn như cái nút trong bàn phím của bạn.
 
    .. image:: ./media/image20.jpeg
@@ -11,11 +12,13 @@
    |
 ..
 2. **Thông số kỹ thuật**
+   
    -  Số chân: 4 chân
    -  Kiểu chân: chân cắm
    -  Chất liệu: nhựa, kim loại.
 ..
 3. **Sơ đồ kết nối**
+   
    Dùng dây jump cái cái để kết nối chân S của D2 với chân SW1 (hoặc có thể nối chân D2 với một trong các chân còn lại từ 2 - 5)
 
    +-----------------------------------+-----------------------------------+
@@ -31,6 +34,7 @@
    |
 
 4. **Hướng dẫn lập trình**
+   
    Để đọc trạng thái của nút bấm, ta sử dụng hàm ``digitalRead()``. Hàm này sẽ trả về giá trị 0 nếu nút bấm được nhấn và trả về giá trị 1 nếu nút bấm không được nhấn.
 .. code-block:: cpp
 
