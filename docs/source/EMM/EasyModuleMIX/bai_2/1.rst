@@ -5,93 +5,92 @@
 
 **1.1 Cài đặt Java Runtime Environment (JRE)**
 
-Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước Arduino IDE.
-\nLink tải: ``https://oracle.com/java/technologies/javase/upgrade.html``
-\nChú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình trạng không chạy được Arduino IDE.
+   Vì Arduino IDE được viết trên Java nên bạn cần phải cài đặt JRE trước Arduino IDE.
 
-2 bản JRE phổ biến nhất là bản dành cho Windows 32bit (x86) và Windows
-64bit (x64) đã đánh dấu trong hình, chọn "Accept License Agreement".
+   Link tải: ``https://oracle.com/java/technologies/javase/upgrade.html``
 
-.. image:: ../media/image3.png
-   :alt: Bản JRE mới nhất là 7u80
-   :width: 5.52708in
-   :height: 3.32274in
-   :align: center
-|
+   Chú ý: Nhiều bạn do không cài JRE trên máy nên thường hay gặp phải tình trạng không chạy được Arduino IDE. 2 bản JRE phổ biến nhất là bản dành cho Windows 32bit (x86) và Windows
+   64bit (x64) đã đánh dấu trong hình, chọn "Accept License Agreement".
 
-Bản JRE mới nhất là 7u80
+   .. image:: ../media/image3.png
+      :alt: Bản JRE mới nhất là 7u80
+      :width: 5.52708in
+      :height: 3.32274in
+      :align: center
+   |
+
+   Bản JRE mới nhất là 7u80
 
 **1.2 Cài đặt Arduino IDE**
 
--  Bước 1: Truy cập địa chỉ https://www.arduino.cc/en/software Đây là nơi lưu trữ cũng như cập nhật các bản IDE của Arduino. Bấm vào mục Windows ZIP file.
+   -  Bước 1: Truy cập địa chỉ https://www.arduino.cc/en/software Đây là nơi lưu trữ cũng như cập nhật các bản IDE của Arduino. Bấm vào mục Windows ZIP file.
 
-.. image:: ../media/image4.png
-   :width: 6.5in
-   :height: 3.39167in
-   :align: center
-|
+   .. image:: ../media/image4.png
+      :width: 6.5in
+      :height: 3.39167in
+      :align: center
+   |
 
-Bạn sẽ được chuyển đến một trang mời quyền góp tiền để phát triển phần mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
+   Bạn sẽ được chuyển đến một trang mời quyền góp tiền để phát triển phần mềm cho Arduino, tiếp tục bấm JUST DOWNLOAD để bắt đầu tải.
 
-.. image:: ../media/image5.png
-   :width: 6.5in
-   :height: 2.99514in
-   :align: center
-|
+   .. image:: ../media/image5.png
+      :width: 6.5in
+      :height: 2.99514in
+      :align: center
+   |
 
--  Bước 2: Sau khi download xong, các bạn bấm chuột phải vào file vừa download arduino-1.8.19-windows và chọn “Extract to arduino-1.8.19-windows ” để giải nén.
+   -  Bước 2: Sau khi download xong, các bạn bấm chuột phải vào file vừa download arduino-1.8.19-windows và chọn “Extract to arduino-1.8.19-windows ” để giải nén.
 
-.. image:: ../media/image6.png
-   :width: 5.92244in
-   :height: 2.70843in
-   :align: center
-|
+   .. image:: ../media/image6.png
+      :width: 5.92244in
+      :height: 2.70843in
+      :align: center
+   |
 
--  Bước 3: Copy thư mục arduino-1.8.19-windows vừa giải nén đến nơi lưu
-   trữ.
--  Bước 4: Chạy file Arduino IDE trong thư mục arduino-1.8.19-windows để
-   khởi động Arduino IDE
+   -  Bước 3: Copy thư mục arduino-1.8.19-windows vừa giải nén đến nơi lưu
+      trữ.
+   -  Bước 4: Chạy file Arduino IDE trong thư mục arduino-1.8.19-windows để
+      khởi động Arduino IDE
 
-.. image:: ../media/image7.png
-   :width: 6.5in
-   :height: 3.40972in
-   :align: center
-|
+   .. image:: ../media/image7.png
+      :width: 6.5in
+      :height: 3.40972in
+      :align: center
+   |
 
 **1.3 Cài đặt Driver**
 
-Để máy tính của bạn và board Arduino giao tiếp được với nhau, chúng ta cần phải cài đặt driver trước tiên.
+   Để máy tính của bạn và board Arduino giao tiếp được với nhau, chúng ta cần phải cài đặt driver trước tiên.
+   Đầu tiên, các bạn chạy file C:\\Program Files(x86)\\Arduino\\drivers\\dpinst-x86.exe (Windows x86). Cửa sổ “Device Driver Installation Wizard” hiện ra, các bạn chọn Next để tiếp tục.
 
-Đầu tiên, các bạn chạy file C:\\Program Files(x86)\\Arduino\\drivers\\dpinst-x86.exe (Windows x86). Cửa sổ “Device Driver Installation Wizard” hiện ra, các bạn chọn Next để tiếp tục.
+   .. image:: ../media/image8.jpeg
+      :width: 4.68684in
+      :height: 3.54167in
+      :align: center
+   |
 
-.. image:: ../media/image8.jpeg
-   :width: 4.68684in
-   :height: 3.54167in
-   :align: center
-|
+   Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
 
-Khi có yêu cầu xác nhận cài đặt driver, chọn “Install”
+   .. image:: ../media/image9.jpeg
+      :width: 4.59816in
+      :height: 3.52083in
+      :align: center
+   |
 
-.. image:: ../media/image9.jpeg
-   :width: 4.59816in
-   :height: 3.52083in
-   :align: center
-|
+   Đợi khoảng 10 giây trong lúc quá trình cài đặt diễn ra …
 
-Đợi khoảng 10 giây trong lúc quá trình cài đặt diễn ra …
+   .. image:: ../media/image10.jpeg
+      :width: 4.35981in
+      :height: 3.35417in
+      :align: center
+   |
 
-.. image:: ../media/image10.jpeg
-   :width: 4.35981in
-   :height: 3.35417in
-   :align: center
-|
+   Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
 
-Quá trình cài đặt đã hoàn tất. Bấm “Finish” để thoát.
-
-.. image:: ../media/image11.jpeg
-   :width: 5.10714in
-   :height: 3.89583in
-   :align: center
-|
+   .. image:: ../media/image11.jpeg
+      :width: 5.10714in
+      :height: 3.89583in
+      :align: center
+   |
 
 .. 

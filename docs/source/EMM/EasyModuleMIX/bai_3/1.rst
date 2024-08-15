@@ -1,69 +1,70 @@
 1. **Đèn LED**
 ========
 
-1.1. **Đèn LED là gì ?**
+    1.1. **Đèn LED là gì ?**
 
-LED (viết tắt của light-emitting diode, có nghĩa là diode phát sáng hoặc diode phát quang) là các diode có khả năng phát ra ánh sáng hay tia hồng ngoại, tử ngoại. Cũng giống như diode, LED được cấu tạo từ một khối bán dẫn loại p ghép với một khối bán dẫn loại n.
+        LED (viết tắt của light-emitting diode, có nghĩa là diode phát sáng hoặc diode phát quang) là các diode có khả năng phát ra ánh sáng hay tia hồng ngoại, tử ngoại. Cũng giống như diode, LED được cấu tạo từ một khối bán dẫn loại p ghép với một khối bán dẫn loại n.
 
-.. image:: ../media/image16.jpeg
-   :width: 5.58333in
-   :height: 1.95775in
-   :align: center
-|
+        .. image:: ../media/image16.jpeg
+        :width: 5.58333in
+        :height: 1.95775in
+        :align: center
+        |
 
-Các loại LED: Thường thì LED có 2 chân, loại nhiều chân là LED nhiều màu
+        Các loại LED: Thường thì LED có 2 chân, loại nhiều chân là LED nhiều màu
 
-1.2. **Cách sử dụng LED**
+    1.2. **Cách sử dụng LED**
 
-Vì LED có hiệu điện thế hoạt động khá thấp, tùy loại LED mà hiệu điện thế dao động ở mức (1.9 - 3.2 Vol).Vì vậy, khi bạn chạy ở hiệu điện thế 5V, thì bạn cần sử dụng một điện trở để giảm hiệu điện thế vào LED.
+        Vì LED có hiệu điện thế hoạt động khá thấp, tùy loại LED mà hiệu điện thế dao động ở mức (1.9 - 3.2 Vol).Vì vậy, khi bạn chạy ở hiệu điện thế 5V, thì bạn cần sử dụng một điện trở để giảm hiệu điện thế vào LED.
 
-1.3. **Thông số kỹ thuật**
+    1.3. **Thông số kỹ thuật**
 
-    -  Led đục
-    -  Chiều dài chân: >20mm
-    -  Đường kính: 5mm
-    -  Điện áp led:
-    -  Đỏ: 1.8 – 2 V
-    -  Vàng: 1.8 – 2 V
-    -  Trắng: 2.8 – 3.2 V
-    -  Xanh lá: 2.8 – 3.2 V
-    -  Xanh dương: 2.8 – 3.2 V
-    -  Dòng: 10 – 20 mA
-    -  Độ sáng : 2000 – 4000 milicandela
+        -  Led đục
+        -  Chiều dài chân: >20mm
+        -  Đường kính: 5mm
+        -  Điện áp led:
+        -  Đỏ: 1.8 – 2 V
+        -  Vàng: 1.8 – 2 V
+        -  Trắng: 2.8 – 3.2 V
+        -  Xanh lá: 2.8 – 3.2 V
+        -  Xanh dương: 2.8 – 3.2 V
+        -  Dòng: 10 – 20 mA
+        -  Độ sáng : 2000 – 4000 milicandela
 
-1.4. **Lập trình cơ bản với LED**
+    1.4. **Lập trình cơ bản với LED**
 
-1.4.1. **Phần cứng**
+        1.4.1. **Phần cứng**
 
-    -  1 Mạch EASY MODULE MIX FOR ARDUINO NANO
-    -  Dây jump cái cái
+            -  1 Mạch EASY MODULE MIX FOR ARDUINO NANO
+            -  Dây jump cái cái
 
-1.4.2 **Sơ đồ kết nối**
+        1.4.2 **Sơ đồ kết nối**
 
-Dùng dây jump cái cái để kết nối chân S của D6 với chân LED1 ( hoặc có thể nối sang một trong các chân LED còn lại từ 2 đến 5)
+            Dùng dây jump cái cái để kết nối chân S của D6 với chân LED1 ( hoặc có thể nối sang một trong các chân LED còn lại từ 2 đến 5)
 
-+-----------------------------------+-----------------------------------+
-| **LED**                           | **ARDUINO**                       |
-+===================================+===================================+
-| LED1                              | D6                                |
-+-----------------------------------+-----------------------------------+
+            +-----------------------------------+-----------------------------------+
+            | **LED**                           | **ARDUINO**                       |
+            +===================================+===================================+
+            | LED1                              | D6                                |
+            +-----------------------------------+-----------------------------------+
 
-.. image:: ../media/image17.png
-   :width: 6.5in
-   :height: 3.94236in
-   :align: center
-|
+            .. image:: ../media/image17.png
+            :width: 6.5in
+            :height: 3.94236in
+            :align: center
+            |
 
-1.4.3. **Hướng dẫn lập trình**
+        1.4.3. **Hướng dẫn lập trình**
 
-void setup() {
-    pinMode(6, OUTPUT);
-}
-void loop() {
-    digitalWrite(6, HIGH);
-    delay(1000);
-    digitalWrite(6, LOW);
-    delay(1000);
-}
+        .. code-block:: cpp
+            void setup() {
+                pinMode(6, OUTPUT);
+            }
+            void loop() {
+                digitalWrite(6, HIGH);
+                delay(1000);
+                digitalWrite(6, LOW);
+                delay(1000);
+            }
 
 .. 
